@@ -23,7 +23,7 @@ Buzz **#460** for entry and take the elevator to the 4th floor. Follow the signs
 
 ### Code of Conduct
 
-Code of Conduct for Nodeschool Vancouver: [policy]](code-of-conduct.md)
+Code of Conduct for Nodeschool Vancouver: [policy](code-of-conduct.md)
 
 No photography without an individuals permission: [Blog post on why.](https://adainitiative.org/2013/07/another-way-to-attract-women-to-conferences-photography-policies/)
 
