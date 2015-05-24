@@ -1,9 +1,18 @@
-title:            NodeSchool Vancouver
+name: NodeSchool Vancouver
+
+# slug of your meetup group -- e.g. http://www.meetup.com/your-meetup-group/
+meetup: node-brigade-vancouver
+
+# your Twitter
+twitter: nodebrigade
+
+# your nodeschool repo name
+repo: vancouver
+
 # Change url to your domain. Leave localhost server or blank when working locally.
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
-url:              //nodeschool.io/vancouver
-# url:              //localhost:4000
-
+# url:              //nodeschool.io/vancouver
+url:              //localhost:4000
 
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /:categories/:title/
