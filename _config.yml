@@ -1,6 +1,6 @@
 name: NodeSchool Vancouver
 
-# slug of your meetup group -- e.g. http://www.meetup.com/your-meetup-group/
+# slug of your-meetup-group, no slashes -- e.g. http://www.meetup.com/your-meetup-group/
 meetup: node-brigade-vancouver
 
 # your Twitter
