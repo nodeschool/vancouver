@@ -1,0 +1,108 @@
+/* global styling */
+body {
+    background: linear-gradient(#FFF, #F0F0F0);
+    background-attachment: fixed;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+}
+hr {
+    border-top: 1px solid #D56100;
+}
+a {
+    color: #D56100;
+    transition: color 300ms ease-in-out;
+}
+a:hover, a:focus {
+    color: #BF5700;
+    text-decoration: none;
+}
+code {
+    background-color: #DDD;
+    color: #555;
+}
+
+/* main section */
+.main {
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 300;
+}
+.main h1, .main h2, .main .title {
+    text-align: center;
+}
+.main h1, .main h2, .main h3 {
+    font-weight: 300;
+}
+.main h2 a {
+    color: initial;
+}
+.main h2 a:hover, .main h2 a:focus {
+    color: initial;
+    text-decoration: none;
+}
+.main .title img {
+    width: 15em;
+}
+.main .title hr {
+    margin: 2em 4em 1.5em;
+}
+.main .info hr {
+    margin: 1em 4em;
+}
+.main .info {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.main .description {
+    margin-top: 1em;
+}
+.main .additional-info {
+    margin-top: 2em;
+}
+.main p {
+    margin: 1em 0;
+}
+.main p:first-child {
+    margin: initial;
+}
+.main .icons, .main .icons-inline {
+    text-align: center;
+}
+.main .icons-inline {
+    display: inline;
+    float: left;
+    padding: 0.5em 0.75em;
+}
+.main .icons .extended {
+    display: inline-block;
+    margin: 0 1.5em;
+}
+.main .icon {
+    max-width: 100px;
+}
+.main .icon.twitter {
+    margin-bottom: 6px;
+}
+.main .icon.gitter {
+    margin-bottom: -4px;
+}
+.main ul {
+    text-align: left;
+    padding-left: 1.5em;
+}
+.main li {
+    list-style: circle;
+}
+
+/* bootstrap's extra small */
+@media (max-width: 767px) {
+    .main .title img {
+        width: 12em;
+    }
+    .main .title hr {
+        margin: 2em;
+    }
+    .main .icons .extended {
+        margin: 1em;
+    }
+}
