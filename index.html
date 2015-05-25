@@ -13,14 +13,19 @@ title: NodeSchool Vancouver
                 <div class="icons-inline">
                     <a href="http://www.meetup.com/{{site.meetup}}/"><img class="icon" src="{{site.url}}/img/meetup.png"></a>
                 </div>
-                <p>NodeSchool Vancouver meets every so often. The meetings are working sessions, so <strong>please bring a laptop</strong>. <a href="/mentors">Mentors</a> will be available to help if you're just getting started with Node, or even if you're a seasoned veteran and want to learn more.</p>
+                <p>NodeSchool Vancouver is part of the broader Node Brigade community. We are likely moving off Meetup soon, so stay tuned.</p>
+                    
+                    <p>The NodeSchool meetings are working sessions, so <strong>please bring a laptop</strong>. <a href="/mentors">Mentors</a> will be available to help if you're just getting started with Node, or even if you're a seasoned veteran and want to learn more.</p>
 
-                <h3>Upcoming Event</h3>
+                <h3>Upcoming Events</h3>
+                <!-- Could be replaced with posts with future dates -->
                 <div class="next-event">No upcoming event scheduled, please check back later!</div>
 
-                <h3>Event Notes</h3>
+                <h3>News & Past Events</h3>
                 <ul>
-                    <li>Write up International Day / NodeSchool Vancouver #1 here</li>
+                    {% for post in site.posts %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
                 </ul>
             </div>
             <div class="additional-info">
@@ -39,10 +44,9 @@ title: NodeSchool Vancouver
                         </a>
                     </div>
                     <div class="extended">
-                        <a href="https://gitter.im/nodeschool/yvr">
-                            <!-- should get changed to vancouver, gitter room needs editing -->
+                        <a href="https://gitter.im/nodeschool/{{site.repo}}">
                             <div>
-                                <img class="gitter icon" src="img/gitter-icon.png">
+                                <img class="gitter icon" src="{{site.url}}/img/gitter-icon.png">
                             </div>
                             <div>
                                 Gitter Chat
@@ -63,7 +67,7 @@ title: NodeSchool Vancouver
 
                 <p>Someone will write info on who the main organizers are</p>
 
-                <p>Want to help? Add your name to our <a href="https://github.com/nodeschool/{{site.repo}}/blob/master/mentors.md">mentors list</a>! (Please let us know if you need access to the <a href="https://github.com/orgs/nodeschool/teams/{{site.repo}}"> NodeSchool team</a>.)</p>
+                <p>Want to help? Add your name to our <a href="https://github.com/nodeschool/{{site.repo}}/blob/gh-pages/mentors.md">mentors list</a>! (Please let us know if you need access to the <a href="https://github.com/orgs/nodeschool/teams/{{site.repo}}"> NodeSchool team</a>.)</p>
 
                 <p>Want to sponsor? We're very grateful for our sponsors, please let us know if you or your company would like to help!</p>
             </div>
@@ -95,7 +99,7 @@ title: NodeSchool Vancouver
                 <p>If you're stuck on anything NodeSchool, or Node in general, please feel free to <a href="#contact">contact us</a>.</p>
 
                 <ul>
-                    <li>Austin NodeSchool GitHub site: <a href="https://github.com/nodeschool/austin">https://github.com/nodeschool/austin</a></li>
+                    <li>{{site.name}} GitHub site: <a href="https://github.com/nodeschool/{{site.repo}}">https://github.com/nodeschool/{{site.repo}}</a></li>
                     <li>Global NodeSchool GitHub issues (contains a long history of questions and answers about NodeSchool): <a href="https://github.com/nodeschool/discussions/issues">https://github.com/nodeschool/discussions/issues</a></li>
                     <li>NodeUp Podcast discussing NodeSchool: <a href="http://nodeup.com/fiftyfive">http://nodeup.com/fiftyfive</a></li>
                     <li>Teach Your Way to Becoming a Better Programmer (via NodeSchool): <a href="https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968">https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968</a></li>
