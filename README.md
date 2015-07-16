@@ -7,7 +7,7 @@ nodeschool vancouver
 
 ### Dates
 
-23rd May 2015
+25rd July 2015
 
 The event will run from noon until about 4:00pm.
 
@@ -19,7 +19,7 @@ Feel free to come a little early and help set up.
 
 Buzz **#460** for entry and take the elevator to the 4th floor. Follow the signs to "Zillow".
 
-### What to prepare before attending
+### Your list of things to prepare before attending
 
 [Speak, friend, and enter!](https://gist.github.com/gyaresu/1848acc320e4c441d995)
 
@@ -34,5 +34,7 @@ Google Maps link: [1122 Mainland St](https://www.google.ca/maps/place/1122+Mainl
 ### Organizers
 
 Luke Vivier:    [https://twitter.com/LukeVivier](https://twitter.com/LukeVivier)
+
 Brock Whitten:  [https://twitter.com/sintaxi](https://twitter.com/sintaxi)
+
 Gareth:         [http://twitter.com/gyaresu](http://twitter.com/gyaresu)
