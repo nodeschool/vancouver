@@ -1,9 +1,25 @@
 nodeschool vancouver
 ====================
 
-[Help plan what you want from the day at our discussion on GitHub!](https://github.com/nodeschool/vancouver/issues/14)
+### Group info
+
+**Recommended**: Get a notification email about new events by simply sending to the address below. (Low traffic)
+ - [vancouver.nodeschool@librelist.com](mailto:vancouver.nodeschool@librelist.com)
+
+Want to unsubscribe? Then send to this one:
+ - [vancouver.nodeschool-unsubscribe@librelist.com](vancouver.nodeschool-unsubscribe@librelist.com)
+
+We do all our planning discussion in GitHub:
+ - [Vancouver Nodeschool](https://github.com/nodeschool/vancouver/issues)
+
+Or chat online :
+ - [https://gitter.im/nodeschool/vancouver](https://gitter.im/nodeschool/vancouver)
+
+## Next event
 
 ### Dates
+
+Signup Page: [https://ti.to/nodeschool-vancouver/2015-08-29](https://ti.to/nodeschool-vancouver/2015-08-29)
 
 29rd August 2015
 
