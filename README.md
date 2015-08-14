@@ -1,13 +1,13 @@
 nodeschool vancouver
 ====================
 
-[![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Help plan what you want from the day at our discussion on GitHub!](https://github.com/nodeschool/vancouver/issues/14)
 
 > nodeschool - Vancouver, British Columbia chapter.
 
 ### Dates
 
-25rd July 2015
+29rd August 2015
 
 The event will run from noon until about 4:00pm.
 
