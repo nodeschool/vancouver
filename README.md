@@ -3,8 +3,6 @@ nodeschool vancouver
 
 [Help plan what you want from the day at our discussion on GitHub!](https://github.com/nodeschool/vancouver/issues/14)
 
-> nodeschool - Vancouver, British Columbia chapter.
-
 ### Dates
 
 29rd August 2015
