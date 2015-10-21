@@ -3,6 +3,9 @@ nodeschool vancouver
 
 ### Group info
 
+Website:
+ - [http://nodeschool.io/vancouver/](http://nodeschool.io/vancouver/)
+
 **Recommended**: Get a notification email about new events by simply sending to the address below. (Low traffic)
  - [vancouver.nodeschool@librelist.com](mailto:vancouver.nodeschool@librelist.com)
 
