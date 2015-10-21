@@ -5,29 +5,29 @@ title: NodeSchool Vancouver
         <div class="info">
             <div class="description">
                 <p>{{site.name}} is part of the global <a href="http://nodeschool.io/">NodeSchool</a> effort to voluntarily teach Node.js to anyone! The source code for the workshops is completely open source and the effort is entirely community driven. And the best part is, it's all free!</p>
+
+                <p>We usually have two or three groups working on different problems at different levels.</p>
+
+                <p>Our total newbie group is great fun and only general computer-use skills are required to participate. You'll find it's really inclusive and friendly and there's no better way to learn than with other of a similar skill level.</p>
+
+                <p>We're all volunteers and attendees are of every level of experience and from all walks of life.</p>
+
+                <p>Even if this is your first experience programming the only thing you need to start is a laptop and a sense of adventure. Bring your loved ones, bring your friends. There's no barrier to learning to code.</p>
+
+                <p>If you do sign up and find you can't attend then please cancel your ticket as space is limited.</p>
+
             </div>
 
             <div class="additional-info">
                 <h2><a name="events">Events</a></h2>
                 <hr>
-                <div class="icons-inline">
-                    <a href="http://www.meetup.com/{{site.meetup}}/"><img class="icon" src="{{site.url}}/img/meetup.png"></a>
-                </div>
-                <p>NodeSchool Vancouver is part of the broader Node Brigade community. We are likely moving off Meetup soon, so stay tuned.</p>
-                    
-                    <p>The NodeSchool meetings are working sessions, so <strong>please bring a laptop</strong>. <a href="/mentors">Mentors</a> will be available to help if you're just getting started with Node, or even if you're a seasoned veteran and want to learn more.</p>
-
+                
                 <h3>Upcoming Events</h3>
-                <!-- Could be replaced with posts with future dates -->
-                <div class="next-event">No upcoming event scheduled, please check back later!</div>
+                
+                <div class="next-event">
+                    <a href="https://ti.to/nodeschool-vancouver/2015-10-25">Tickets to NodeSchool 25th October, 2015</a>
+                </div>
 
-                <h3>News & Past Events</h3>
-                <ul>
-                    {% for post in site.posts %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-                </ul>
-            </div>
             <div class="additional-info">
                 <h2><a name="contact">Contact</a></h2>
                 <hr>
@@ -64,8 +64,8 @@ title: NodeSchool Vancouver
                         </a>
                     </div>
                 </div>
-
-                <p>Someone will write info on who the main organizers are</p>
+                
+                <p>You can also contact <a href="https://twitter.com/gyaresu">Gareth</a> on twitter</p>
 
                 <p>Want to help? Add your name to our <a href="https://github.com/nodeschool/{{site.repo}}/blob/gh-pages/mentors.md">mentors list</a>! (Please let us know if you need access to the <a href="https://github.com/orgs/nodeschool/teams/{{site.repo}}"> NodeSchool team</a>.)</p>
 
