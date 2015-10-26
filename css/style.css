@@ -20,6 +20,9 @@ code {
     background-color: #DDD;
     color: #555;
 }
+footer {
+  margin-bottom: 1em;
+}
 
 /* main section */
 .main {
@@ -92,6 +95,25 @@ code {
 }
 .main li {
     list-style: circle;
+}
+
+footer hr {
+  margin: 1em 5em;
+}
+
+footer .item {
+  display: inline;
+  margin: 0 2em;
+}
+
+footer .item .github-icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.footer-container {
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 /* bootstrap's extra small */
