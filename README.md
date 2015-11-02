@@ -18,13 +18,13 @@ We do all our planning discussion in GitHub:
 Or chat online :
  - [https://gitter.im/nodeschool/vancouver](https://gitter.im/nodeschool/vancouver)
 
-## Next event
+## Next Event
 
 ### Dates
 
-Signup Page: [https://ti.to/nodeschool-vancouver/2015-08-29](https://ti.to/nodeschool-vancouver/2015-08-29)
+Signup Page: [https://ti.to/nodeschool-vancouver/2015-08-29](https://ti.to/nodeschool-vancouver/2015-11-21)
 
-29rd August 2015
+November 21st, 2015
 
 The event will run from noon until about 4:00pm.
 
