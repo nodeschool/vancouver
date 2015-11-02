@@ -22,7 +22,7 @@ Or chat online :
 
 ### Dates
 
-Signup Page: [https://ti.to/nodeschool-vancouver/2015-08-29](https://ti.to/nodeschool-vancouver/2015-11-21)
+[Signup Page](https://ti.to/nodeschool-vancouver/2015-11-21)
 
 November 21st, 2015
 
