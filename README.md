@@ -22,9 +22,9 @@ Or chat online :
 
 ### Dates
 
-[Signup Page](https://ti.to/nodeschool-vancouver/2015-11-21)
+[Signup Page](https://ti.to/nodeschool-vancouver/2016-01-16)
 
-November 21st, 2015
+January 16, 2016
 
 The event will run from noon until about 4:00pm.
 
