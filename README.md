@@ -30,6 +30,11 @@ The event will run from noon until about 4:00pm.
 
 Feel free to come a little early and help set up.
 
+### Mentoring
+If you are interested in mentoring, please make a [Pull Request](https://github.com/nodeschool/vancouver/pulls) to add yourself to the list of mentors. We also ask you to read over ["Event Mentor Best Practices"](https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices) on what it's like being a mentor prior to signing up. 
+
+Although there are designated mentors during Vancouver Nodeschool events, we encourage past students to help mentor the topics they've already learned :tada:.
+
 ### Location
 
 1122 Mainland St near Yaletown Canada Line station.
