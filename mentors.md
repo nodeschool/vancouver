@@ -11,3 +11,4 @@ contacted about mentoring at a future Vancouver NodeSchool.
 - @switters
 - @tabruhn
 - @forivall
+- @florida
