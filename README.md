@@ -1,5 +1,5 @@
 <p align="center">
-<img src="logo.svg" width="400px">
+<img src="https://cdn.rawgit.com/kennethormandy/nodeschool-vancouver/ko-logo/logo.svg" width="400px">
 </p>
 
 nodeschool vancouver
