@@ -31,7 +31,8 @@ please contact an organizer immediately.
     * Gareth:         [http://twitter.com/gyaresu](http://twitter.com/gyaresu)
     * Luke Vivier:    [https://twitter.com/LukeVivier](https://twitter.com/LukeVivier)
     * Brock Whitten:  [https://twitter.com/sintaxi](https://twitter.com/sintaxi)
-* Meetup URL: **https://ti.to/nodeschool-vancouver/2015-05-23**
+* Homepage:
+    * [NodeSchool Vancouver](https://github.com/nodeschool/vancouver)
 
 **If you have questions or feedback about this Code of Conduct please contact
 one of the organizers.**
