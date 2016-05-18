@@ -22,11 +22,11 @@ Or chat online :
 
 ### Dates
 
-[Signup Page](https://ti.to/nodeschool-vancouver/2016-04-30)
+Signup Page: [https://ti.to/nodeschool-vancouver/2016-05-21](https://ti.to/nodeschool-vancouver/2016-05-21)
 
-January 30, 2016
+:sparkles: 21 May, 2016 :sparkles:
 
-The event will run from noon until about 4:00pm.
+The event will run from 1:00pm until about 5:00pm.
 
 Feel free to come a little early and help set up!
 
@@ -38,9 +38,9 @@ Although there are designated mentors during Vancouver Nodeschool events, we enc
 
 ### Location
 
-1122 Mainland St near Yaletown Canada Line station.
+This month we are being hosted by the awesome folks at [DecentralVan](https://twitter.com/decentralvan)
 
-Buzz **#460** for entry and take the elevator to the 4th floor. Follow the signs to "Zillow".
+436 W Pender -- DecentralVan
 
 ### Your list of things to prepare before attending
 
