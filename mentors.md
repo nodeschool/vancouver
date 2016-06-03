@@ -13,3 +13,4 @@ contacted about mentoring at a future Vancouver NodeSchool.
 - @forivall
 - @florida
 - @normful
+- @baldwynn
