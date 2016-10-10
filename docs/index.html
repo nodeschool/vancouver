@@ -1,148 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <title>NodeSchool Vancouver</title>
-    <style>
-      body {
-        display: block;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'AvenirNext-Medium', 'Trebuchet MS', sans-serif;
-        font-weight: 'medium';
-        font-size: 26pt;
-        color: #555;
-      }
-      header, main, article, footer {
-        margin: 0 auto;
-        padding: 1em 0;
-        max-width: 720px;
-      }
-      .bg {
-        background-color: #fabe28;
-        color: #fff;
-        font-size: 1.5em;
-        line-height: 1.2em;
-      }
-      .sm {
-        background-color: #f3f3f3;
-        font-size: .6em;
-      }
-      h1 {
-        font-size: inherit;
-        padding: 0;
-        margin: 0;
-      }
-      header p {
-        margin: 0.5em 0;
-      }
-      footer, footer a {
-        font-size: .8em;
-        text-align: center;
-        color: #000;
-      }
-      footer a {
-        text-decoration: underline;
-        padding: 0 2em;
-      }
-      .contact-icons {
-        list-style-type: none;
-        overflow: hidden;
-        display: block;
-        padding: 0;
-        margin-bottom: 0;
-      }
-      .contact-icons li {
-        display: block;
-        padding: 2em 0;
-        text-align: center;
-        vertical-align: bottom;
-        width: 33%;
-        float: left;
-      }
-      .contact-icons .icon {
-        display: block;
-        margin: 0 auto;
-        width: 50%;
-      }
-      a {
-        text-decoration: none;
-        color: #ff003c;
-      }
-      a:hover {
-        text-decoration: underline;
-        color: #c40011;
-      }
-    </style>
+    <script src="https://use.fontawesome.com/d5adc71338.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <div class="bg">
-      <header>
-        <h1>NodeSchool Vancouver</h1>
-
-        <p>Learn node.js and JavaScript with free group workshops!</p>
-      </header>
-    </div>
+    <header>
+      <img src="https://cdn.rawgit.com/kennethormandy/nodeschool-vancouver/ko-logo/logo.svg" width="300px">
+      <h1>Welcome to<br>NodeSchool Vancouver</h1>
+    </header>
     <main>
-      <p>NodeSchool Vancouver is a free monthly meetup where you can learn the
-      basics of JavaScript and node.js through informal self-guided workshops,
-      with experienced mentors to provide help if you need it.</p>
+      <p>NodeSchool Vancouver is a free monthly meetup organized and run by volunteers where you can learn the basics of JavaScript and Node.JS through informal self-guided workshops, with experienced mentors to provide help if you need it.</p>
+      <br>
+      <p>Everyone is welcome! Even if this is your first experience programming the only thing you need to start is a laptop and a sense of adventure! There's no barrier to learning to code.</p>
+      <br>
+      <p>Interested? Then stay in touch with us through Gitter, Github, or follow us on Twitter for the latest news about our upcoming events! </p>
+      <div class="contact">
+        <a href="https://github.com/nodeschool/vancouver">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          GitHub
+        </a>
+        <a href="https://gitter.im/nodeschool/vancouver">
+          <i class="fa fa-comments-o" aria-hidden="true"></i>
+          Gitter Chat
+        </a>
+        <a href="https://twitter.com/nodeschoolyvr">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          Twitter
+        </a>
+      </div>
 
-      <p>Everyone is welcome! Even if this is your first experience programming
-      the only thing you need to start is a laptop and a sense of adventure.
-      There's no barrier to learning to code.</p>
+      <div class="events">
+        <a href="https://ti.to/nodeschool-vancouver/">
+          <i class="fa fa-calendar" aria-hidden="true"></i> See past and upcoming events
+        </a>
+      </div>
 
-      <a href="https://ti.to/nodeschool-vancouver/">See past and upcoming events</a>
+      <div class="mailing-list">
+        <form class="" action="index.html" method="post">
 
-      <ul class="contact-icons">
-        <li>
-          <a href="https://github.com/nodeschool/vancouver">
-            <img class="icon" src="github.png"/>
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/nodeschoolyvr">
-            <img class="icon" src="twitter.png"/>
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a href="https://gitter.im/nodeschool/vancouver">
-            <img class="icon" src="gitter.png"/>
-            Gitter Chat
-          </a>
-        </li>
-      </ul>
+        </form>
+      </div>
     </main>
 
     <div class="sm">
       <article>
         <h2>About NodeSchool</h2>
 
-        <p>NodeSchool is an open source project run by volunteers with two goals:
-        to create high quality programming curriculum and to host community
-        learning events.</p>
-
-        <p>The "workshopper" format was first created by
-        <a href="http://substack.net/">Substack of the Internet</a> in Summer
-        2013 when he wrote the
+        <p>NodeSchool is an open source project run by volunteers with two goals: <b>creating a high quality programming curriculum</b> and to <b>host community learning events</b>. Our curriculum is focused around the "workshopper" format which was first created by
+        <a href="http://substack.net/">Substack of the Internet</a> in Summer 2013 when he wrote the
         <a href="https://www.npmjs.com/package/stream-adventure">stream-adventure
         </a> workshopper.</p>
-
-        <p>The defining characteristic of the workshopper is the interactvity
-        and automation. Workshoppers are made up of challenges of increasing
-        difficulty. Each challenge starts by explaining a concept, and then
-        presents a list of requirements for solving the challenge. Learners then
-        try and write a computer program that satisfies the criteria.</p>
-        <p>Read more at the <a href="http://nodeschool.io/about.html">
+        <br>
+        <p>The defining characteristic of the workshopper is the interactvity and automation. Workshoppers are made up of challenges of increasing difficulty. Each challenge starts by explaining a concept, and then presents a list of requirements for solving the challenge. Learners then try and write a computer program that satisfies the criteria. Find out more at the <a href="http://nodeschool.io/about.html">
         NodeSchool website.</a></p>
       </article>
 
       <footer>
-        <a href="mailto:vancouver@nodeschool.io">vancouver@nodeschool.io</a>
-        <a href="https://github.com/nodeschool/vancouver/blob/master/docs/index.html">edit this page on GitHub</a>
-        <a href="https://github.com/nodeschool/vancouver/blob/master/code-of-conduct.md">code of conduct</a>
+        <a href="mailto:vancouver@nodeschool.io">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          vancouver@nodeschool.io
+        </a>
+        <a href="https://github.com/nodeschool/vancouver/blob/master/docs/index.html">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          Edit this page on GitHub
+        </a>
+        <a href="https://github.com/nodeschool/vancouver/blob/master/code-of-conduct.md">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          Code of Conduct
+        </a>
       </footer>
     </div>
   </body>
