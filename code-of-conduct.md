@@ -28,9 +28,9 @@ please contact an organizer immediately.
 ### **Vancouver**
 
 * Organizers:
+    * Stephen:        [https://twitter.com/stephenbelanger](https://twitter.com/stephenbelanger)
     * Gareth:         [http://twitter.com/gyaresu](http://twitter.com/gyaresu)
-    * Luke Vivier:    [https://twitter.com/LukeVivier](https://twitter.com/LukeVivier)
-    * Brock Whitten:  [https://twitter.com/sintaxi](https://twitter.com/sintaxi)
+    
 * Homepage:
     * [NodeSchool Vancouver](https://github.com/nodeschool/vancouver)
 
