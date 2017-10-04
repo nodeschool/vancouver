@@ -37,6 +37,7 @@ on what it's like being a mentor prior to signing up!
 - [@normful](https://github.com/normful)
 - [@baldwynn](https://github.com/baldwynn)
 - [@JimFung](https://github.com/JimFung)
+- [@Scoutski](https://github.com/Scoutski)
 
 If you've come to a few NodeSchool events, we encourage you to mentor! :tada:
 
