@@ -27,7 +27,7 @@ yourself to this list. We also ask you to read over [Event Mentor Best Practices
 on what it's like being a mentor prior to signing up!
 
 - [@lvivier](https://github.com/lvivier)
-- [@gyaresu](https://github.com/gyaresu)
+- [@gareth__](https://github.com/gareth__)
 - [@lrlna](https://github.com/lrlna)
 - [@qard](https://github.com/qard)
 - [@switters](https://github.com/switters)
