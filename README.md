@@ -9,11 +9,7 @@ software skills. Individuals are encouraged to do the
 [workshoppers](http://nodeschool.io/) on their own or at one of the
 NodeSchool events around the world. The workshopper tutorials are used
 as the course curriculum, while mentors are here to help attendees
-work through challenges.
-
-- [Website](http://nodeschool.io/vancouver/)
-- [Mailing List (low traffic)](mailto:vancouver.nodeschool@librelist.com)
-- [Unsubscribe](vancouver.nodeschool-unsubscribe@librelist.com)
+work through challenges. Learn more [here](http://nodeschool.io/vancouver/).
 
 ## Get in touch
 
