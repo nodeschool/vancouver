@@ -8,11 +8,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'AvenirNext-Medium', 'Trebuchet MS', sans-serif;
-  font-weight: 'medium';
-  font-size: 26pt;
+  font-size: 22pt;
   color: #555;
 }
 header, main, article, footer {
+  text-align: center;
   margin: 0 auto;
   padding: 1em 0;
   max-width: 1024px;
