@@ -14,6 +14,28 @@ work through challenges.
 - [Mailing List (low traffic)](mailto:vancouver.nodeschool@librelist.com)
 - [Unsubscribe](vancouver.nodeschool-unsubscribe@librelist.com)
 
+## Get in touch
+
+Every community needs a reliable way to communicate. To make it easier, we have
+a few ways for everyone to speak with each other. We've also included a max
+response time for an organizer to respond.
+
+### Tier 1: Max response time within 1 day, real-time on workshop days
+
+- [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
+- [slack](https://yvrdev.slack.com): for general chat, planning meetups, and
+questions about workshops if you're challenging yourself at home. DM /@manil for
+an invite to our channel
+- [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
+
+### Tier 2: Max response time of 3 days
+
+- [meetup](https://www.meetup.com/nodeschool-vancouver/): general info
+
+### Tier 3: Max response time of 7 days, phasing out by March 2018
+
+- [gitter](https://gitter.im/nodeschool/vancouver): general chat
+
 ## Want to attend?
 
 Check out our [events page](https://ti.to/nodeschool-vancouver). Feel
