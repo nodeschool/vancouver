@@ -21,8 +21,8 @@ response time for an organizer to respond.
 
 - [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
 - [slack](https://yvrdev.slack.com): for general chat, planning meetups, and
-questions about workshops if you're challenging yourself at home. DM /@manil for
-an invite to our channel
+questions about workshops if you're challenging yourself at home. Signup [here](https://yvrdev.herokuapp.com/) and DM /@manil for an invite to our
+channel
 - [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
 
 ### Tier 2: Max response time of 3 days
