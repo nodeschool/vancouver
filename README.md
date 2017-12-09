@@ -1,5 +1,5 @@
 
-# NodeSchool Vancouver [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# NodeSchool Vancouver 🇨🇦 [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 _**All of our scheduled events are on
 [meetup.com](https://www.meetup.com/nodeschool-vancouver)**_
@@ -11,7 +11,7 @@ NodeSchool events around the world. The workshopper tutorials are used
 as the course curriculum, while mentors are here to help attendees
 work through challenges. Learn more [here](http://nodeschool.io/vancouver/).
 
-## Get in touch
+## Get in touch ⚡️
 
 Every community needs a reliable way to communicate. To make it easier, we have
 a few ways for everyone to speak with each other. We've also included a max
@@ -33,7 +33,7 @@ channel
 
 - [gitter](https://gitter.im/nodeschool/vancouver): general chat
 
-## Want to attend?
+## Want to attend? ✨
 
 Check out our [scheduled events](https://www.meetup.com/nodeschool-vancouver) on
 meetup.com. Feel free to come a 15 minutes early and help set up!
@@ -41,7 +41,7 @@ meetup.com. Feel free to come a 15 minutes early and help set up!
 Workshops from before Nov 2017 are archived
 [here](https://ti.to/nodeschool-vancouver).
 
-### Want to mentor or help organize?
+### Want to mentor or help organize? 💛
 
 If you are interested in mentoring, please make a
 [Pull Request](https://github.com/nodeschool/vancouver/pulls) to add
@@ -65,7 +65,7 @@ on what it's like being a mentor prior to signing up!
 
 If you've come to a few NodeSchool events, we encourage you to mentor! :tada:
 
-### Code of Conduct
+### Code of Conduct 
 
 - [Code of Conduct for Nodeschool Vancouver](code-of-conduct.md)
 - [No photography without an individual's permission](https://adainitiative.org/2013/07/another-way-to-attract-women-to-conferences-photography-policies/)
