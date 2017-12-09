@@ -1,7 +1,8 @@
 
 # NodeSchool Vancouver [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-_**We organise all of our events in the [Issues](nodeschool/vancouver/issues) section here on GitHub**_
+_**All of our scheduled events are on
+[meetup.com](https://www.meetup.com/nodeschool-vancouver)**_
 
 NodeSchool is a series of open source workshops that teach web
 software skills. Individuals are encouraged to do the
@@ -30,7 +31,7 @@ an invite to our channel
 
 ### Tier 2: Max response time of 3 days
 
-- [meetup](https://www.meetup.com/nodeschool-vancouver/): general info
+- [meetup.com](https://www.meetup.com/nodeschool-vancouver): general info
 
 ### Tier 3: Max response time of 7 days, phasing out by March 2018
 
@@ -38,8 +39,11 @@ an invite to our channel
 
 ## Want to attend?
 
-Check out our [events page](https://ti.to/nodeschool-vancouver). Feel
-free to come a little early and help set up!
+Check out our [scheduled events](https://www.meetup.com/nodeschool-vancouver) on
+meetup.com. Feel free to come a 15 minutes early and help set up!
+
+Workshops from before Nov 2017 are archived
+[here](https://ti.to/nodeschool-vancouver).
 
 ### Want to mentor or help organize?
 
