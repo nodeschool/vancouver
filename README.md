@@ -20,9 +20,8 @@ response time for an organizer to respond.
 ### Tier 1: Max response time within 1 day, real-time on workshop days
 
 - [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
-- [slack](https://yvrdev.slack.com): for general chat, planning meetups, and
-questions about workshops if you're challenging yourself at home. Signup [here](https://yvrdev.herokuapp.com/) and DM /@manil for an invite to our
-channel
+- [slack](https://yvrdev.slack.com): (new starting Dec 13 2017) for general chat, planning meetups, and
+questions about workshops if you're challenging yourself at home. Go to the YVRDev slack [here](https://yvrdev.herokuapp.com/) and join the #nodeschool-yvr channel
 - [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
 
 ### Tier 2: Max response time of 3 days
@@ -36,7 +35,7 @@ channel
 ## Want to attend? ✨
 
 Check out our [scheduled events](https://www.meetup.com/nodeschool-vancouver) on
-meetup.com. Feel free to come a 15 minutes early and help set up!
+meetup.com. Feel free to come 15 minutes early and help set up!
 
 Workshops from before Nov 2017 are archived
 [here](https://ti.to/nodeschool-vancouver).
@@ -65,7 +64,7 @@ on what it's like being a mentor prior to signing up!
 
 If you've come to a few NodeSchool events, we encourage you to mentor! :tada:
 
-### Code of Conduct 
+### Code of Conduct
 
 - [Code of Conduct for Nodeschool Vancouver](code-of-conduct.md)
 - [No photography without an individual's permission](https://adainitiative.org/2013/07/another-way-to-attract-women-to-conferences-photography-policies/)
