@@ -1,7 +1,7 @@
 
 # NodeSchool Vancouver [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-_**We organise all of our events in the [Issues](nodeschool/vancouver/issues) section here on GitHub**_
+_**We organise all of our events in the [Issues](https://github.com/nodeschool/vancouver/issues) section here on GitHub**_
 
 NodeSchool is a series of open source workshops that teach web
 software skills. Individuals are encouraged to do the
