@@ -8,11 +8,11 @@ You can go either month-to-month or be a **12-month Exclusive Sponsor**.
 The **12-month Exclusive Sponsor** option is only available if all other sponsorships for your chosen type of sponsorshop (that is, either _cash_ or _venue_) at the time are "Month-to-month". In the event that an Exclusive Sponsor is secured, NodeSchoolYVR will not entertain any other sponsorship agreements of that type for the duration of the 12-month term.
 
 ## Cash sponsors
-NodeSchoolYVR offers one benefits tier to any and all cash sponsors. Sponsorship funds with be used for, but is not limited to, food, drinks, and operational costs.
+NodeSchoolYVR offers one benefits tier to any and all cash sponsors. Sponsorship funds will be used for (, but is not limited to,) food, drinks, and operational costs.
 
 ### Each sponsor is provided with the following benefits:
 - Logo on the meetup home page, sponsors page, and event pages at [meetup.com](https://www.meetup.com/nodeschool-vancouver/)
-- Company write up in the event invitation (a monthly email to 170 Node.js programmers and enthusiasts in the 3 months since Meetup account inception)
+- Company write up in the event invitation (a monthly email to 170 Node.js programmers and enthusiasts signed up in the 3 months since Meetup account inception)
 - Company marketing materials distributed at each event
 - Personalized mention by our emcee at each event
 - We’ll distribute your stickers/swag at the event
