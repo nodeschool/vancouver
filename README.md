@@ -1,25 +1,46 @@
 
-# NodeSchool Vancouver [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# NodeSchool Vancouver 🇨🇦 [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-_**We organise all of our events in the [Issues](nodeschool/vancouver/issues) section here on GitHub**_
+_**All of our scheduled events are on
+[meetup.com](https://www.meetup.com/nodeschool-vancouver)**_
 
 NodeSchool is a series of open source workshops that teach web
 software skills. Individuals are encouraged to do the
 [workshoppers](http://nodeschool.io/) on their own or at one of the
 NodeSchool events around the world. The workshopper tutorials are used
 as the course curriculum, while mentors are here to help attendees
-work through challenges.
+work through challenges. Learn more [here](http://nodeschool.io/vancouver/).
 
-- [Website](http://nodeschool.io/vancouver/)
-- [Mailing List (low traffic)](mailto:vancouver.nodeschool@librelist.com)
-- [Unsubscribe](vancouver.nodeschool-unsubscribe@librelist.com)
+## Get in touch ⚡️
 
-## Want to attend?
+Every community needs a reliable way to communicate. To make it easier, we have
+a few ways for everyone to speak with each other. We've also included a max
+response time for an organizer to respond.
 
-Check out our [events page](https://ti.to/nodeschool-vancouver). Feel
-free to come a little early and help set up!
+### Tier 1: Max response time within 1 day, real-time on workshop days
 
-### Want to mentor or help organize?
+- [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
+- [slack](https://yvrdev.slack.com): (new starting Dec 13 2017) for general chat, planning meetups, and
+questions about workshops if you're challenging yourself at home. Go to the YVRDev slack [here](https://yvrdev.herokuapp.com/) and join the #nodeschool-yvr channel
+- [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
+
+### Tier 2: Max response time of 3 days
+
+- [meetup.com](https://www.meetup.com/nodeschool-vancouver): general info
+
+### Tier 3: Max response time of 7 days, phasing out by March 2018
+
+- [gitter](https://gitter.im/nodeschool/vancouver): general chat
+
+## Want to attend? ✨
+
+Check out our [scheduled events](https://www.meetup.com/nodeschool-vancouver) on
+meetup.com. Feel free to come 15 minutes early and help set up!
+
+Workshops from before Nov 2017 are archived
+[here](https://ti.to/nodeschool-vancouver).
+
+### Want to mentor or help organize? 💛
 
 If you are interested in mentoring, please make a
 [Pull Request](https://github.com/nodeschool/vancouver/pulls) to add
