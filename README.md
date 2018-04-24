@@ -25,6 +25,7 @@ questions about workshops if you're challenging yourself at home. Go to YVRDev s
 (sign up [here](https://yvrdev.herokuapp.com/) if you don't have it) and join
 the #nodeschool-yvr channel
 - [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
+- [NodeSchool](https://community.vancouvertech.com/c/events/nodeschool) at [YVR Tech Community](https://community.vancouvertech.com): for planning
 
 ### Tier 2: Max response time of 3 days
 
