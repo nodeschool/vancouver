@@ -40,7 +40,7 @@ the #nodeschool-yvr channel
 
 - [gitter](https://gitter.im/nodeschool/vancouver): general chat
 
-### Want to mentor or help organize? 💛
+## Want to mentor or help organize? 💛
 
 If you are interested in mentoring, please make a
 [Pull Request](https://github.com/nodeschool/vancouver/pulls) to add
@@ -65,7 +65,7 @@ on what it's like being a mentor prior to signing up!
 
 If you've come to a few NodeSchool events, we encourage you to mentor! :tada:
 
-### Code of Conduct
+## Code of Conduct
 
 - [Code of Conduct for Nodeschool Vancouver](code-of-conduct.md)
 - [No photography without an individual's permission](https://adainitiative.org/2013/07/another-way-to-attract-women-to-conferences-photography-policies/)
