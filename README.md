@@ -1,5 +1,5 @@
 
-# NodeSchool Vancouver 🇨🇦 [![Join the chat at https://gitter.im/nodeschool/vancouver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/vancouver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# NodeSchool Vancouver 🇨🇦
 
 _**All of our scheduled events are on
 [meetup.com](https://www.meetup.com/nodeschool-vancouver)**_
@@ -11,7 +11,7 @@ NodeSchool events around the world. The workshopper tutorials are used
 as the course curriculum, while mentors are here to help attendees
 work through challenges. Learn more [here](http://nodeschool.io/vancouver/).
 
-## Get in touch ⚡️
+## Talk with each other ⚡️
 
 Every community needs a reliable way to communicate. To make it easier, we have
 a few ways for everyone to speak with each other. We've also included a max
@@ -20,15 +20,17 @@ response time for an organizer to respond.
 ### Tier 1: Max response time within 1 day, real-time on workshop days
 
 - [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
-- [slack](https://yvrdev.slack.com): (new starting Dec 13 2017) for general chat, planning meetups, and
-questions about workshops if you're challenging yourself at home. Go to the YVRDev slack [here](https://yvrdev.herokuapp.com/) and join the #nodeschool-yvr channel
+- [slack](https://yvrdev.slack.com): for general chat, planning meetups, and
+questions about workshops if you're challenging yourself at home. Go to YVRDev slack
+(sign up [here](https://yvrdev.herokuapp.com/) if you don't have it) and join
+the #nodeschool-yvr channel
 - [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
 
 ### Tier 2: Max response time of 3 days
 
 - [meetup.com](https://www.meetup.com/nodeschool-vancouver): general info
 
-### Tier 3: Max response time of 7 days, phasing out by March 2018
+### Phased out
 
 - [gitter](https://gitter.im/nodeschool/vancouver): general chat
 
