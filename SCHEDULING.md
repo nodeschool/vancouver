@@ -13,11 +13,11 @@ Year | Month | Date | Venue* | Capacity
 Year | Month | Date | Venue* | Capacity | Event type
 ---- | ----- | ---- | ----- | -------- | ----------
 2018 | August | 11th | [Sauce Labs at Water St and Abbott](https://osm.org/go/WJQrN1jlA?way=136258919) | 20 |
-2018 | September | 8th | [Sauce Labs at Water St and Abbott](https://osm.org/go/WJQrN1jlA?way=136258919) | 20 |
-2018 | October | 13th | To be announced | - |
-2018 | November | 10th | To be announced | - |
+2018 | September | 8th | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 20 |
+2018 | October | 13th | [Sauce Labs at Water St and Abbott](https://osm.org/go/WJQrN1jlA?way=136258919) | 20 |
+2018 | November | 10th | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 20 |
 2018 | December | 15th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | 🎄🎄 Holiday Edition 🎄🎄
-2019 | January | 12th | To be announced | - |
+2019 | January | 12th | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 20 |
 2018 | February | 9th | To be announced | - |
 2018 | March | 9th | To be announced | - |
 2018 | April | 13th | To be announced | - |
