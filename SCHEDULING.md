@@ -14,7 +14,6 @@ Year | Month | Date | Venue* | Capacity
 
 Year | Month | Date | Venue* | Capacity | Event type
 ---- | ----- | ---- | ----- | -------- | ----------
-
 2018 | October | 13th | [Sauce Labs at Water St and Abbott](https://osm.org/go/WJQrN1jlA?way=136258919) | 20 |
 2018 | November | 10th | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 20 |
 2018 | December | 15th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | 🎄🎄 Holiday Edition 🎄🎄
