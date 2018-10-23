@@ -63,6 +63,7 @@ on what it's like being a mentor prior to signing up!
 - [@chowdhurian](https://github.com/chowdhurian)
 - [@emclaren](https://github.com/emclaren)
 - [@fishrock123](https://github.com/fishrock123)
+- [@ayliao](https://github.com/ayliao)
 
 If you've come to a few NodeSchool events, we encourage you to mentor! :tada:
 
