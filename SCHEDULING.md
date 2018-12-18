@@ -18,11 +18,17 @@ Year | Month | Date | Venue* | Capacity | Event type
 ---- | ----- | ---- | ----- | -------- | ----------
 2018 | December | 15th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | 🎄🎄 Holiday Edition 🎄🎄
 2019 | January | 12th | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 40 |
+2019 | January | 19th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | February | 9th | To be announced | - |
+2019 | February | 16th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | March | 9th | To be announced | - |
+2019 | March | 16th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | April | 13th | To be announced | - |
+2019 | April | 20th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | May | 11th | To be announced | - |
+2019 | May | 18th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | June | 8th | To be announced | - |
+2019 | June | 15th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | July | 13th | To be announced | - |
 2019 | August | 10th | To be announced | - |
 2019 | September | 14th | To be announced | - |
