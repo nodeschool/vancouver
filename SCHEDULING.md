@@ -6,7 +6,7 @@ Year | Month | Date | Venue* | Capacity | Event type
 ---- | ----- | ---- | ----- | -------- | ----------
 2019 | January | [12th](https://www.meetup.com/nodeschool-vancouver/events/256561672/) | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 40 |
 2019 | January | 19th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
-2019 | February | [9th](https://www.meetup.com/nodeschool-vancouver/events/256561686/) | [airG at Georgia Viaduct, Vancouver](https://goo.gl/maps/BJ1F1BjiX9M2) | 40 |
+2019 | February | [9th](https://www.meetup.com/nodeschool-vancouver/events/256561686/) | [airG at Georgia Viaduct, Vancouver](https://goo.gl/maps/sAxJhoE4YW62) | 40 |
 2019 | February | 16th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | March | 9th | To be announced | - |
 2019 | March | 16th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
