@@ -8,7 +8,7 @@ Year | Month | Date | Venue* | Capacity | Event type
 2019 | January | 19th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | February | [9th](https://www.meetup.com/nodeschool-vancouver/events/256561686/) | [airG at Georgia Viaduct, Vancouver](https://goo.gl/maps/sAxJhoE4YW62) | 40 |
 2019 | February | 16th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
-2019 | March | 9th | To be announced | - |
+2019 | March | [9th](https://www.meetup.com/nodeschool-vancouver/events/257977976) | [Sauce Labs at Water St and Abbott](https://osm.org/go/WJQrN1jlA?way=136258919) | 20 |
 2019 | March | 16th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | April | 13th | To be announced | - |
 2019 | April | 20th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
