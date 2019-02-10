@@ -1,5 +1,7 @@
 # Scheduling
 
+Take a look at [HOSTING](HOSTING.md) if you are interested in hosting an event.
+
 ## 2019
 
 Year | Month | Date | Venue* | Capacity | Event type
