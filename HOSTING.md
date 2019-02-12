@@ -23,4 +23,4 @@ Are you interested in hosting NodeSchool Vancouver? We have a minimum set of req
 
 ## Interested?
 
-Please create a github issue or email [nodeschoolyvr@groups.io](mailto:nodeschoolyvr@groups.io)
+Please create a github issue or email [vancouver@nodeschool.io](mailto:vancouver@nodeschool.io)
