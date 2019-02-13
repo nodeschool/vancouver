@@ -16,7 +16,7 @@ Are you interested in hosting NodeSchool Vancouver? We have a minimum set of req
 * Power strips
 ** Some of the organizers have various power strips that can be loaned out if you don't have anything available
 * Job postings
-** Lots of node schoolers are looking for work, so its good to have someone or something that knows about your companies postings
+** A large proportion of NodeSchoolers are looking for work (or open to the idea of changing roles)! It can be helpful to have a person who can talk a little about your company's open roles attending the session 💁🏽
 * Swag
 ** Helps your company get remembered
 * Whiteboards
