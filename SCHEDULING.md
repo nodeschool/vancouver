@@ -18,7 +18,7 @@ Year | Month | Date | Venue* | Capacity | Event type
 2019 | May | 18th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | June | [8th](https://www.meetup.com/nodeschool-vancouver/events/260107490/) | LaunchPad, Richmond Public Library | 20 |
 2019 | June | 15th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
-2019 | July | 13th | To be announced | - |
+2019 | July | 13th | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 40 |
 2019 | August | 10th | To be announced | - |
 2019 | September | 14th | To be announced | - |
 2019 | October | 12th | To be announced | - |
