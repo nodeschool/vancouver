@@ -1,6 +1,9 @@
 
 # NodeSchool Vancouver 🇨🇦
 
+- On the web: https://nodeschool.io/vancouver/
+- On Gitter: [nodeschool/organizers](https://gitter.im/nodeschool/organizers)
+
 NodeSchool is a series of open source [workshoppers](http://nodeschool.io/) that
 teach web software skills.
 
