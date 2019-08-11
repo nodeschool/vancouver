@@ -18,10 +18,12 @@ A note from **Clio** about how to get there:
 
 Meetup description
 
-Are you a beginner at using Node.js and/or JavaScript? Are you comfortable with either, and just want to experiment and learn in the company of other nice humans?
+Are you a beginner at using Node.js and/or JavaScript? Are you wanting a refresher? Are you looking to level up your knowledge? 
+
+We don't have set classes, and as such it is considered a self study program. The Node School organization has a lot of workshops for you to learn from, and we help out along the way, but that doesn't mean you have to do the workshops, we are a diverse group of people learning and growing together.
 
 Bring your laptops and, if you can, have Node.js installed before you arrive. It's time for another session of learning!
 
 We have regular mentors to help everyone learn. But we can't ever have too many people who want to help others learn, right?! We promise that by the end of the session you'll know enough to help the person sitting next to you learn too 💪
 
-RSVP "yes" and come learn and/or help others learn Node.js and/or JavaScript over a casual Saturday morning! 
+RSVP "yes" and come learn and/or help others learn Node.js and/or JavaScript over a casual Saturday afternoon! 
