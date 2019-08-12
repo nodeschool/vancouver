@@ -20,7 +20,7 @@ Meetup description
 
 Are you a beginner at using Node.js and/or JavaScript? Are you wanting a refresher? Are you looking to level up your knowledge? 
 
-We don't have set classes, and as such it is considered a self study program. The Node School organization has a lot of workshops for you to learn from, and we help out along the way, but that doesn't mean you have to do the workshops, we are a diverse group of people learning and growing together.
+We don't have set classes, and as such it is considered a self study program. The NodeSchool organization has a lot of workshops for you to learn from, and we help out along the way, but that doesn't mean you have to do the workshops, we are a diverse group of people learning and growing together.
 
 Bring your laptops and, if you can, have Node.js installed before you arrive. It's time for another session of learning!
 
