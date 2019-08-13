@@ -34,11 +34,11 @@ questions about workshops if you're challenging yourself at home. Go to YVRDev s
 the #nodeschool-yvr channel
 - [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
 - [NodeSchool](https://community.vancouvertech.com/c/events/nodeschool) at [YVR Tech Community](https://community.vancouvertech.com): for planning
-- [meetup.com](https://www.meetup.com/nodeschool-vancouver): general info
 
 ### Phased out
 
-- [gitter](https://gitter.im/nodeschool/vancouver): general chat
+- ~~[meetup.com](https://www.meetup.com/nodeschool-vancouver): general info~~
+- ~~[gitter](https://gitter.im/nodeschool/vancouver): general chat~~
 
 ## Want to mentor or help organize? 💛
 
@@ -47,10 +47,18 @@ If you are interested in mentoring, please make a
 yourself to this list. We also ask you to read over [Event Mentor Best Practices](https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices)
 on what it's like being a mentor prior to signing up!
 
+### Current Mentors
+
+- [@qard](https://github.com/qard)
+- [@chowdhurian](https://github.com/chowdhurian)
+- [@ayliao](https://github.com/ayliao)
+- [@halkeye](https://github.com/halkeye)
+
+### Past Mentors
+
 - [@lvivier](https://github.com/lvivier)
 - [@gyaresu](https://github.com/gyaresu)
 - [@lrlna](https://github.com/lrlna)
-- [@qard](https://github.com/qard)
 - [@switters](https://github.com/switters)
 - [@tabruhn](https://github.com/tabruhn)
 - [@forivall](https://github.com/forivall)
@@ -60,10 +68,8 @@ on what it's like being a mentor prior to signing up!
 - [@JimFung](https://github.com/JimFung)
 - [@Scoutski](https://github.com/Scoutski)
 - [@lyntco](https://github.com/lyntco)
-- [@chowdhurian](https://github.com/chowdhurian)
 - [@emclaren](https://github.com/emclaren)
 - [@fishrock123](https://github.com/fishrock123)
-- [@ayliao](https://github.com/ayliao)
 
 If you've come to a few NodeSchool events, we encourage you to mentor! :tada:
 
