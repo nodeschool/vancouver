@@ -20,9 +20,9 @@ Year | Month | Date | Venue* | Capacity | Event type
 2019 | June | 15th | [Elysian Coffee at 7th and Ontario](https://goo.gl/maps/vFcNsTtmu2C2) | 10 | Getting Started in Open Source 👩🏽‍💻
 2019 | July | [13th](https://www.meetup.com/nodeschool-vancouver/events/260825524) | [Clio at Canada Way, Burnaby](https://goo.gl/maps/fCoVMK4GA7w) | 40 |
 2019 | August | [10th](https://www.meetup.com/nodeschool-vancouver/events/262570784/) | [Sauce Labs at Water St and Abbott](https://osm.org/go/WJQrN1jlA?way=136258919) | 20 |
-2019 | September | 14th | To be announced | - |
-2019 | October | 12th | To be announced | - |
-2019 | November | 9th | To be announced | - |
+2019 | September | [14th](https://www.meetup.com/nodeschool-vancouver/events/263961682/) | [airG at Georgia Viaduct, Vancouver](https://goo.gl/maps/sAxJhoE4YW62)| 40 |
+2019 | October | [12th](https://www.meetup.com/nodeschool-vancouver/events/264018794/) | To be announced | - |
+2019 | November | [9th](https://www.meetup.com/nodeschool-vancouver/events/264018813) | To be announced | - |
 
 ## 2018
 
