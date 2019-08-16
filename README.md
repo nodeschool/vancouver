@@ -27,16 +27,17 @@ all current channels.
 
 ### Current: 1 day max response time. Slack and Twitter is real-time on workshop days
 
+- [meetup discussion board](https://www.meetup.com/nodeschool-vancouver/discussions/): Public group discussion
 - [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
-- [slack](https://yvrdev.slack.com): for general chat, planning meetups, and
-questions about workshops if you're challenging yourself at home. Go to YVRDev slack
-(sign up [here](https://yvrdev.herokuapp.com/) if you don't have it) and join
-the #nodeschool-yvr channel
 - [github issues](https://github.com/nodeschool/vancouver/issues/): for planning
-- [NodeSchool](https://community.vancouvertech.com/c/events/nodeschool) at [YVR Tech Community](https://community.vancouvertech.com): for planning
 
 ### Phased out
 
+- ~- [slack](https://yvrdev.slack.com): for general chat, planning meetups, and
+questions about workshops if you're challenging yourself at home. Go to YVRDev slack
+(sign up [here](https://yvrdev.herokuapp.com/) if you don't have it) and join
+the #nodeschool-yvr channel~
+- ~- [NodeSchool](https://community.vancouvertech.com/c/events/nodeschool) at [YVR Tech Community](https://community.vancouvertech.com): for planning~
 - ~~[meetup.com](https://www.meetup.com/nodeschool-vancouver): general info~~
 - ~~[gitter](https://gitter.im/nodeschool/vancouver): general chat~~
 
