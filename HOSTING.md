@@ -5,7 +5,7 @@ Are you interested in hosting NodeSchool Vancouver? We have a minimum set of req
 ## Minimum requirements
 
 * Seating and table space for 20+ people
-** Can be split into a couple rooms because we tend to split into smaller groups
+  * Can be split into a couple rooms because we tend to split into smaller groups
 * Wifi for 20+ people
 * Power
 
