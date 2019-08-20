@@ -12,13 +12,13 @@ Are you interested in hosting NodeSchool Vancouver? We have a minimum set of req
 ## Nice to have
 
 * Mentors
-** It's typically helpful to have people from your company/organization interact with members of the community. Participants find the contact supportive and a chance to discuss all sorts of technical, cultural, and experiential questions!
+  * It's typically helpful to have people from your company/organization interact with members of the community. Participants find the contact supportive and a chance to discuss all sorts of technical, cultural, and experiential questions!
 * Power strips
-** Some of the organizers have various power strips that can be loaned out if you don't have anything available
+  * Some of the organizers have various power strips that can be loaned out if you don't have anything available
 * Job postings
-** A large proportion of NodeSchoolers are looking for work (or open to the idea of changing roles)! It can be helpful to have a person who can talk a little about your company's open roles attending the session 💁🏽
+  * A large proportion of NodeSchoolers are looking for work (or open to the idea of changing roles)! It can be helpful to have a person who can talk a little about your company's open roles attending the session 💁🏽
 * Swag
-** Helps your company get remembered
+  * Helps your company get remembered
 * Whiteboards
 
 ## Interested?
