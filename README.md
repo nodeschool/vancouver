@@ -25,7 +25,7 @@ Every community needs a reliable way to communicate. To make it easier, we have
 a few ways for everyone to speak with each other. Organizers can be reached through
 all current channels.
 
-### Current: 1 day max response time. Slack and Twitter is real-time on workshop days
+### Current: 1 day max response time.
 
 - [meetup discussion board](https://www.meetup.com/nodeschool-vancouver/discussions/): Public group discussion
 - [twitter](https://twitter.com/nodeschoolyvr): tweet [@nodeschoolyvr](https://twitter.com/nodeschoolyvr) for general chat
