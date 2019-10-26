@@ -19,12 +19,7 @@ module.exports = {
   ],
   "settings": {
     "react": { "version": "detect" },
-    'import/resolver': {
-      extensions: ['.js', '.jsx']
-    },
-    react: {
-      version: 'detect'
-    }
+    "import/extensions": ['.js', '.jsx'],
     "linkComponents": [
       {"name": "Link", "linkAttribute": "to"}
     ]
