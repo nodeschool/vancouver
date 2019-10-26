@@ -38,6 +38,9 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-jest": "^22.20.0",
+    "eslint-plugin-promise": "^4.2.1",
     "prettier": "^1.18.2"
   },
   "keywords": [
