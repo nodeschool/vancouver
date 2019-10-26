@@ -11,6 +11,7 @@ import Sponsors from "../components/sponsors";
 import Attendies from "../components/attendies";
 import Mentors from "../components/mentors";
 import Photos from "../components/photos";
+import NodeSchoolChapterLogo from '../components/NodeSchoolChapterLogo';
 
 const IndexPage = () => (
   <Layout>
@@ -19,18 +20,7 @@ const IndexPage = () => (
     <main className="main cf">
       <section className="panel text">
         <div className="container">
-          {/* Header */}
-          <div className="header">
-            <a className="logo" href="https://ti.to/nodeschool-vancouver/node-school-vancouver-may-2018">
-              <img src="i/nodeschool-vancouver-logo.svg" alt="NodeSchool Vancouver Logo" />
-            </a>
-
-            <h1>
-              Welcome to<br />
-              NodeSchool Vancouver
-            </h1>
-          </div>
-
+          <NodeSchoolChapterLogo />
           <Community />
           <FollowTwitter />
 
