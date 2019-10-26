@@ -1,6 +1,6 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import SingleEvent from './single_event'
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import SingleEvent from './single_event';
 
 export const UpcomingEvents = () => {
   const data = useStaticQuery(graphql`
@@ -38,11 +38,11 @@ export const UpcomingEvents = () => {
         }
       }
     }
-  `)
+  `);
   return data.allMeetupEvent.edges.map(edge => <SingleEvent {...edge.node} />);
-}
+};
 
-export default UpcomingEvents
+export default UpcomingEvents;
 
 
 

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 export const SingleEvent = ({description, name, venue, time, utc_offset, updated, }) => {
   return (
     <div>
@@ -17,8 +17,8 @@ export const SingleEvent = ({description, name, venue, time, utc_offset, updated
         {venue.localized_country_name}
       </div>
     </div>
-  )
+  );
 };
 
 
-export default SingleEvent
+export default SingleEvent;
