@@ -1,3 +1,4 @@
+/* eslint-env node */
 module.exports = {
   "root": true,
   "parser": `babel-eslint`,
@@ -20,6 +21,11 @@ module.exports = {
   "settings": {
     "react": { "version": `detect` },
     "import/extensions": [`.js`, `.jsx`],
+    "import/resolver": {
+      "node": {
+        "extensions": [`.js`,`.jsx`]
+      }
+    },
     "linkComponents": [
       {"name": `Link`, "linkAttribute": `to`}
     ]

@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
 import Events from "../components/events";
 import FollowTwitter from "../components/follow-twitter";
@@ -11,7 +9,7 @@ import Sponsors from "../components/sponsors";
 import Attendies from "../components/attendies";
 import Mentors from "../components/mentors";
 import Photos from "../components/photos";
-import NodeSchoolChapterLogo from '../components/NodeSchoolChapterLogo';
+import NodeSchoolChapterLogo from "../components/NodeSchoolChapterLogo";
 
 const IndexPage = () => (
   <Layout>
@@ -28,8 +26,8 @@ const IndexPage = () => (
             <h3>Get Notified</h3>
 
             <p>
-              Make sure you know what's going on within the community and
-              whenever we're having an event by signing up to our mailing list
+              Make sure you know what&apos;s going on within the community and
+              whenever we&apos;re having an event by signing up to our mailing list
               below:
             </p>
 
@@ -80,7 +78,7 @@ const IndexPage = () => (
 
           <h2 id="faq">Frequently Asked Questions</h2>
 
-          <h3>"What should I expect?"</h3>
+          <h3>&quot;What should I expect?&quot;</h3>
           <p>
             NodeSchool is a self-directed learning environment, where you bring
             your own laptop to learn. The intention is for attendees to work on
@@ -93,10 +91,10 @@ const IndexPage = () => (
             road blocks.
           </p>
 
-          <h3>"How do I install Node?"</h3>
+          <h3>&quot;How do I install Node?&quot;</h3>
           <p>
             Our recommended way to install Node is through something called
-            "Homebrew".
+            &quot;Homebrew&quot;.
           </p>
           <p className="indent">
             <strong>1.</strong> Install Homebrew by copying the following
@@ -104,7 +102,7 @@ const IndexPage = () => (
           </p>
           <code className="terminal"
             ><pre>
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</pre
+$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</pre
             >
           </code>
           <p className="indent">
@@ -114,21 +112,21 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
           </p>
           <p>
             If you have any issues installing either Homebrew or Node no
-            worries. We'll do our best to help you get set up once you arrive at
+            worries. We&apos;ll do our best to help you get set up once you arrive at
             an event.
           </p>
 
-          <h3>"What is a Workshopper?"</h3>
+          <h3>&quot;What is a Workshopper?&quot;</h3>
           <p>
             Workshopper is the name used for the open source lesson modules
-            associated with NodeSchool. All are self guided (you don't need to
+            associated with NodeSchool. All are self guided (you don&apos;t need to
             attend a workshop to do one) and most work offline.
           </p>
 
-          <h3>"How do I run a Workshopper?"</h3>
+          <h3>&quot;How do I run a Workshopper?&quot;</h3>
           <p>
-            To get started with a Workshopper tutorial you'll have to install
-            and then run that program in terminal/bash. Here's an example of how
+            To get started with a Workshopper tutorial you&apos;ll have to install
+            and then run that program in terminal/bash. Here&apos;s an example of how
             to install and run the Beginner Node Workshopper:
           </p>
           <code className="terminal">
