@@ -10,6 +10,7 @@ import Attendies from "../components/attendies";
 import Mentors from "../components/mentors";
 import Photos from "../components/photos";
 import NodeSchoolChapterLogo from "../components/NodeSchoolChapterLogo";
+import EventFooter from "../components/events/footer";
 
 const IndexPage = () => (
   <Layout>
@@ -271,16 +272,7 @@ $ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
                   <span className="name">Demos</span>
                 </li>
               </ul>
-              <p className="additional">
-                <strong>NodeSchool</strong> strives to be a welcoming and safe
-                event for all attendees. Attendees should follow the
-                <a href="#codeofconduct">code of conduct</a>. If you need
-                further information about an event, please contact: 
-                <strong>
-                  <a href="mailto:organizers@nodeschoolyvr.com" target="_blank">organizers@nodeschoolyvr.com</a>
-                </strong
-                >
-              </p>
+              <EventFooter />
             </div>
 
 
