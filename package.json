@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "nodeschool-vancouver-gatsby",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website for nodeschool vancouver",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nodeschool YVR <organizers@nodeschoolyvr.com>",
+  "homepage": "https://nodeschool.io/vancouver/",
   "dependencies": {
     "gatsby": "^2.17.4",
     "gatsby-image": "^2.2.29",
@@ -27,8 +28,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "TZ=UTC gatsby build",
+    "build:pp": "TZ=UTC gatsby build --prefix-paths",
+    "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
+    "clean": "rm -rf public",
+    "develop": "gatsby develop -p 3000 -H 0.0.0.0",
+    "dev": "npm run develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -36,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/nodeschool/vancouver"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/nodeschool/vancouver/issues"
   }
 }
