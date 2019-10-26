@@ -55,7 +55,7 @@ const IndexPage = () => (
                   className="required email"
                 />
               </label>
-              <div style={{ position: 'absolute', left: '-5000px' }}>
+              <div style={{ position: `absolute`, left: `-5000px` }}>
                 <input
                   type="text"
                   name="b_62145c918d78960a0c95987c2_ec5cf6637f"

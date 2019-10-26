@@ -1,9 +1,9 @@
 /* eslint-env node */
-const config = require('./data/config.js');
+const config = require(`./data/config.js`);
 module.exports = {
   siteMetadata: config,
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -15,7 +15,7 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-sass',
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -48,8 +48,8 @@ module.exports = {
       resolve: `gatsby-source-meetup`,
       options: {
         groupUrlName: config.meetupGroup,
-        status: "upcoming,past",
-        desc: "true",
+        status: `upcoming,past`,
+        desc: `true`,
         page: 10
       },
     } : null,
@@ -57,41 +57,41 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
-        excerpt_separator: '<!-- excerpt -->',
+        excerpt_separator: `<!-- excerpt -->`,
         plugins: [
-          'gatsby-remark-source-name',
-          'gatsby-remark-relative-images',
+          `gatsby-remark-source-name`,
+          `gatsby-remark-relative-images`,
           {
-            resolve: 'gatsby-remark-images',
+            resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200
             }
           },
           {
-            resolve: 'gatsby-remark-responsive-iframe'
+            resolve: `gatsby-remark-responsive-iframe`
           },
           {
-            resolve: 'gatsby-remark-embed-youtube',
+            resolve: `gatsby-remark-embed-youtube`,
             options: {
               width: 800,
               height: 400
             }
           },
 
-          'gatsby-remark-autolink-headers',
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-emoji'
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-emoji`
         ]
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-catch-links',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-catch-links`,
     {
-      resolve: 'gatsby-plugin-sentry',
+      resolve: `gatsby-plugin-sentry`,
       options: {
         dsn: process.env.SENTRY_DSN
       }
