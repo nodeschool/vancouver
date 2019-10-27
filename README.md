@@ -76,3 +76,9 @@ npm run deploy:github
 
 This will deploy your site to your gh-pages branch of the current repository
 
+
+## Todo
+
+[ ] Remove scss and replace it with in component emotion (Easier to track down styles)
+[ ] Photos (Maybe just order by filename)
+[ ] Switch from using float to css grid
