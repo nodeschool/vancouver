@@ -19,6 +19,14 @@ const IndexPage = () => {
       site {
         siteMetadata {
           title
+          twitter
+          meetupGroup
+          credits {
+            logo {
+              name
+              url
+            }
+          }
         }
       }
       schoolhouseImage: file(relativePath: { eq: "schoolhouse-beige.svg" }) {
@@ -98,8 +106,10 @@ const IndexPage = () => {
             <p>
               NodeSchool is a self-directed learning environment, where you bring
               your own laptop to learn. The intention is for attendees to work on
-              the Node workshops from
-              <a href="http://nodeschool.io/#workshopper-list" target="_blank"
+              the Node workshops from <a 
+                rel="noopener noreferrer"
+                target="_blank"
+                href="http://nodeschool.io/#workshopper-list"
                 >nodeschool.io</a
               >. But if you have a personal project you are working on, do it! The
               goal of NodeSchool is to help people explore and learn Node. There
@@ -109,6 +119,7 @@ const IndexPage = () => {
 
             <h3>&quot;How do I install Node?&quot;</h3>
             <p>
+              {/* FIXME - this is recommended for mac doesn't work elsewhere */}
               Our recommended way to install Node is through something called
               &quot;Homebrew&quot;.
             </p>
@@ -116,11 +127,9 @@ const IndexPage = () => {
               <strong>1.</strong> Install Homebrew by copying the following
               command into a terminal/bash prompt:
             </p>
-            <code className="terminal"
-              ><pre>
-  $ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</pre
-              >
-            </code>
+            <code className="terminal"><pre>
+$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+            </pre></code>
             <p className="indent">
               <strong>2.</strong> Once installed, run
               <code>brew install node</code> which should install the latest
@@ -192,26 +201,33 @@ const IndexPage = () => {
               <h2 id="credit">Credits</h2>
 
               <p className="credit">
-                The {data.site.siteMetadata.title} Hex Logo was kindly designed by
-                <a href="http://willduart.com/">Will Du</a>.
+                The {data.site.siteMetadata.title} Hex Logo was kindly designed by <a
+                  href={data.site.siteMetadata.credits.logo.url}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >{data.site.siteMetadata.credits.logo.name}</a>.
               </p>
 
               <p className="links">
+                {data.site.siteMetadata.meetupGroup && (
+                  <>
+                    <a
+                    href={`https://www.meetup.com/${data.site.siteMetadata.meetupGroup}`}
+                    title={`${data.site.siteMetadata.title} Event`}
+                    >Events</a
+                  >
+                  <span className="divider">|</span>
+                </>)}
+
                 <a
-                  href="https://ti.to/nodeschool-vancouver"
-                  title="{data.site.siteMetadata.title} Event"
-                  >Events</a
-                >
-                <span className="divider">|</span>
-                <a
-                  href="https://twitter.com/NodeSchoolTO"
-                  title="{data.site.siteMetadata.title} Twitter"
+                  href={`https://twitter.com/${data.site.siteMetadata.twitter}`}
+                  title={`${data.site.siteMetadata.title} Twitter`}
                   >Twitter</a
                 >
                 <span className="divider">|</span>
                 <a
                   href="https://github.com/nodeschool/vancouver"
-                  title="{data.site.siteMetadata.title} GitHub"
+                  title={`${data.site.siteMetadata.title} GitHub`}
                   >GitHub</a
                 >
                 <span className="divider">|</span>

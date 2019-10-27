@@ -7,6 +7,12 @@ module.exports = {
   github: `nodeschool/vancouver`,
   slack: ``,
   meetupGroup: `nodeschool-vancouver`,
-  email: `organizers@nodeschoolyvr.com`
+  email: `organizers@nodeschoolyvr.com`,
+  credits: {
+    logo: {
+      name: `Kenneth Ormandy`,
+      url: `https://kennethormandy.com/`,
+    },
+  },
 };
 
