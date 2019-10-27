@@ -248,52 +248,7 @@ $ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
               {/* event badge */}
 
               <div className="event">
-                <p className="register">
-                  <strong>Register</strong> for our event on
-                  <strong>Sat, April 27th</strong>
-                </p>
-                <tito-widget
-                  event="nodeschool-vancouver/node-school-vancouver-april-2019"
-                ></tito-widget>
-                <p className="location">
-                  <strong>Location:</strong>&nbsp; Resolver 111 Peter St #804,
-                  Vancouver, ON M5V 2H1
-                </p>
-                <div className="map">
-                  <iframe
-                    title="google maps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.0147250836303!2d-79.39509158478407!3d43.64786197912144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b4807d4c28f57%3A0x405949782aee2b5e!2sResolver+Inc.!5e0!3m2!1sen!2sca!4v1533828430167"
-                    width="600"
-                    height="450"
-                    frameBorder="0"
-                    style={{border:0}}
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="schedule">
-                  <strong>Schedule</strong>
-                </p>
-                <ul className="timeline">
-                  <li className="row">
-                    <span className="time">12:45pm - 1:00pm</span>
-                    <span className="name">Registration</span>
-                  </li>
-                  <li className="row">
-                    <span className="time">1:00pm - 1:30pm</span>
-                    <span className="name"
-                      >Presentations:<br />
-                      <strong>TBD</strong>
-                    </span>
-                  </li>
-                  <li className="row">
-                    <span className="time">1:30pm - 3:30pm</span>
-                    <span className="name">Workshop Time</span>
-                  </li>
-                  <li className="row">
-                    <span className="time">3:30pm - 4:00pm</span>
-                    <span className="name">Demos</span>
-                  </li>
-                </ul>
+                <Events />
                 <EventFooter />
               </div>
 
@@ -306,8 +261,6 @@ $ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
           </div>
         </aside>
       </main>
-
-      <Events />
     </Layout>
   );
 };
