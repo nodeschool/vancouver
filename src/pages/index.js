@@ -21,6 +21,7 @@ const IndexPage = () => {
           title
           twitter
           meetupGroup
+          mailchimpSubscribeUrl
           credits {
             logo {
               name
@@ -56,35 +57,26 @@ const IndexPage = () => {
               </p>
 
               <form
-                action="https://nodeschool.us11.list-manage.com/subscribe/post?u=62145c918d78960a0c95987c2&amp;id=ec5cf6637f"
+                action={data.site.siteMetadata.mailchimpSubscribeUrl}
                 method="post"
                 target="_blank"
               >
                 <label className="firstname">
                   <span>First Name</span>
-                  <input type="text" value="" name="FNAME" className="" />
+                  <input type="text" name="FNAME" className="" />
                 </label>
                 <label className="lastname">
                   <span>Last Name</span>
-                  <input type="text" value="" name="LNAME" className="" />
+                  <input type="text" name="LNAME" className="" />
                 </label>
                 <label className="email">
                   <span>Email Address</span>
                   <input
                     type="email"
-                    value=""
                     name="EMAIL"
                     className="required email"
                   />
                 </label>
-                <div style={{ position: `absolute`, left: `-5000px` }}>
-                  <input
-                    type="text"
-                    name="b_62145c918d78960a0c95987c2_ec5cf6637f"
-                    tabIndex="-1"
-                    value=""
-                  />
-                </div>
                 <input type="submit" value="Subscribe" name="subscribe" />
               </form>
             </div>
