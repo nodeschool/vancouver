@@ -4,6 +4,7 @@ module.exports = {
   siteMetadata: config,
   pathPrefix: require(`./data/path-prefix.js`),
   plugins: [
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,

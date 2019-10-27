@@ -1,5 +1,38 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import styled from "@emotion/styled";
+import Hexagon from 'react-hexagon';
+
+const MentorContainer = styled.div`
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 0.25fr));
+
+  width: 100%;
+  z-index: 900;
+  transform: translate3d(-5%, 0, 0);
+  position: relative;
+
+  &:hover {
+    svg {
+      transition: opacity 0.3s, transform 0.2s;
+      opacity: 0.25;
+      &:hover {
+        opacity: 1 !important;
+        transform: scale(1.5);
+        z-index: 9999;
+      }
+    }
+  }
+  svg {
+    padding: 0;
+    margin: 0;
+    polygon {
+      stroke: transparent !important;
+      stroke-width: 0 !important;
+    }
+  }
+`;
 
 export const Mentors = () => {
   const data = useStaticQuery(graphql`
@@ -25,60 +58,31 @@ export const Mentors = () => {
     <>
       <h2 id="mentors">Mentors</h2>
       {/* mentors */}
-      <svg
-        className="svgs"
-        xmlns="http://www.w3.org/2000/svg"
-        version="1.1"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <defs>
-          {data.allMentorsYaml.edges.map(edge => (
-            <pattern
-              id={`mentor-${edge.node.id}`}
-              key={edge.node.id}
-              width="300"
-              height="300"
-              patternUnits="userSpaceOnUse"
-            >
-              <image
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                xlinkHref={`https://avatars3.githubusercontent.com/${ edge.node.github }?v=3&amp;s=250`}
-                width="250"
-                height="300"
-                preserveAspectRatio="xMidYMid slice"
-              ></image>
-            </pattern>
-          ))}
-        </defs>
-      </svg>
-      <div className="list-mentors cf">
+      <MentorContainer>
         {data.allMentorsYaml.edges.map(edge => (
-            <a
-              key={edge.node.id}
-              href={edge.node.twitter ? `https://twitter.com/${edge.node.twitter}` : `https://github.com/${edge.node.github}`}
-              rel="noopener noreferrer"
-              target="_blank"
-              className="image-wrapper"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink">
-                <polygon className="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill={`url('#mentor-${edge.node.id}')`}></polygon>
-              </svg>
-            </a>
+          <Hexagon
+            key={edge.node.id}
+            href={edge.node.twitter ? `https://twitter.com/${edge.node.twitter}` : `https://github.com/${edge.node.github}`}
+            backgroundImage={`https://avatars3.githubusercontent.com/${ edge.node.github }?v=3&amp;s=120`}
+            rel="noopener noreferrer"
+            target="_blank"
+          />
         ))}
-        <p>
-          If you want to help teach or contribute in anyway, make a
-          <strong>
-            <a href={`https://github.com/${data.site.siteMetadata.github}/pulls`}>
-            Pull Request
-            </a>
-          </strong>
-          and add your name to the list of available mentors. We also ask
-          that you please read the
-          <a href="https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices#on-being-a-mentor">
-            &quot;On Being a Mentor&quot;
+      </MentorContainer>
+      <p>
+        If you want to help teach or contribute in anyway, make a
+        <strong>
+          <a href={`https://github.com/${data.site.siteMetadata.github}/pulls`}>
+          Pull Request
           </a>
-          tips for <strong>NodeSchool Organizers</strong> before attending as a mentor.
-        </p>
+        </strong>
+        and add your name to the list of available mentors. We also ask
+        that you please read the
+        <a href="https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices#on-being-a-mentor">
+          &quot;On Being a Mentor&quot;
+        </a>
+        tips for <strong>NodeSchool Organizers</strong> before attending as a mentor.
+      </p>
 
         {/*
         <p>
@@ -86,35 +90,6 @@ export const Mentors = () => {
           <a href="https://nodeschool-toronto-slackin.herokuapp.com/">Slack Channel</a>.
         </p>
         */}
-      </div>
-      {/*
-            <div className="list-mentors cf">
-              {% for mentor in site.mentors %} {% cycle '
-              <div className="row">
-                ', '', '', '', '' %}
-                <a
-                  href="https://twitter.com/{{ mentor.twitter }}"
-                  target="_blank"
-                  className="image-wrapper"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 250 300"
-                    version="1.1"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                  >
-                    <polygon
-                      className="hex"
-                      points="250,75 250,225 125,300 0,225 0,75 125,0"
-                      fill="url('#mentor-{{ forloop.index }}')"
-                    ></polygon>
-                  </svg>
-                </a>
-                {% cycle '', '', '', '', '
-              </div>
-              ' %} {% endfor %}
-            </div>
-            */}
     </>
   );
 };

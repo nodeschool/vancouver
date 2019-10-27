@@ -6,9 +6,12 @@
   "author": "Nodeschool YVR <organizers@nodeschoolyvr.com>",
   "homepage": "https://nodeschool.io/vancouver/",
   "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.22",
     "gatsby": "^2.17.4",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-catch-links": "^2.1.15",
+    "gatsby-plugin-emotion": "^4.1.12",
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-offline": "^3.0.16",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
@@ -36,7 +39,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-hexagon": "^1.1.3"
   },
   "devDependencies": {
     "eslint-plugin-babel": "^5.3.0",
