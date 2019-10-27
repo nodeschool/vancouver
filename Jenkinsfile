@@ -40,7 +40,7 @@ pipeline {
       steps {
         sh 'git config --global user.email "jenkins@gavinmogan.com"'
         sh 'git config --global user.name "jenkins.gavinmogan.com"'
-        sh "npm run deploy:github -r ${env.GIT_URL.replace("https://", "https://${GITHUB_USR}:${GITHUB_PSW}@")}"
+        sh "npm run deploy:github -- -r ${env.GIT_URL.replace("https://", "https://${GITHUB_USR}:${GITHUB_PSW}@")}"
       }
     }
 
