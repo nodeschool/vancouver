@@ -2,6 +2,7 @@
 const config = require(`./data/config.js`);
 module.exports = {
   siteMetadata: config,
+  pathPrefix: require(`./data/path-prefix.js`),
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
