@@ -17,30 +17,30 @@ const NodeSchoolChapterLogo = () => {
   `);
   return (
     <div style={{
-      margin: 'auto'
+      margin: `auto`,
     }}>
-      <div style={{ width: '100%', height: '100%' }}>
+      <div style={{ width: `100%`, height: `100%` }}>
         <img
           src={data.placeholderImage.publicURL}
           alt={data.site.siteMetadata.title}
           style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            display: 'block',
-            width: '250px',
-            maxWidth: '250px'
+            marginLeft: `auto`,
+            marginRight: `auto`,
+            display: `block`,
+            width: `250px`,
+            maxWidth: `250px`,
           }}
         />
       </div>
 
       <h1 style={{
-        fontSize: '50px',
-        lineHeight: '140%',
-        textAlign: 'center',
-        fontWeight: '300',
-        margin: '0 auto 60px',
-        letterSpacing: '-1px',
-        color: '#C0493D', // FIXME - siteMeta color
+        fontSize: `50px`,
+        lineHeight: `140%`,
+        textAlign: `center`,
+        fontWeight: `300`,
+        margin: `0 auto 60px`,
+        letterSpacing: `-1px`,
+        color: `#C0493D`, // FIXME - siteMeta color
       }}>
         Welcome to
         <br />

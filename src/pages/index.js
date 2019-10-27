@@ -1,4 +1,5 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -13,6 +14,19 @@ import NodeSchoolChapterLogo from "../components/NodeSchoolChapterLogo";
 import EventFooter from "../components/events/footer";
 
 const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      schoolhouseImage: file(relativePath: { eq: "schoolhouse-beige.svg" }) {
+        extension
+        publicURL
+      }
+    }
+  `);
   return (
     <Layout>
       <SEO title="Home" />
@@ -69,7 +83,7 @@ const IndexPage = () => {
 
             <h2 id="events">Events</h2>
             <p>
-              <strong>NodeSchool Vancouver</strong> events are run by an
+              <strong>{data.site.siteMetadata.title}</strong> events are run by an
               enthusiastic group of volunteers. The workshops will be held monthly
               and will always be free.
             </p>
@@ -141,14 +155,14 @@ const IndexPage = () => {
             <h2 id="codeofconduct">Code of Conduct</h2>
 
             <p>
-              We, the organizers of <strong>NodeSchool Vancouver</strong>, are
+              We, the organizers of <strong>{data.site.siteMetadata.title}</strong>, are
               dedicated to providing a harassment-free community for everyone,
               regardless of sex, gender identity or expression, sexual
               orientation, disability, physical appearance, age, body size, race,
               nationality, or religious beliefs. We do not tolerate harassment of
               community members in any form. Participants violating these rules
               may be sanctioned or expelled from the community at the discretion
-              of the organizers of <strong>NodeSchool Vancouver</strong>.
+              of the organizers of <strong>{data.site.siteMetadata.title}</strong>.
             </p>
 
             <p>
@@ -159,7 +173,7 @@ const IndexPage = () => {
               harassing photography or recording, sustained disruption of talks or
               other events, inappropriate physical contact, and unwelcome sexual
               attention. Sexual language and imagery is not appropriate for any
-              events at <strong>NodeSchool Vancouver</strong> meetups or in any
+              events at <strong>{data.site.siteMetadata.title}</strong> meetups or in any
               related communication channels. Community members asked to stop any
               harassing behavior are expected to comply immediately. Sponsors and
               presenters are also subject to the anti-harassment policy.
@@ -167,7 +181,7 @@ const IndexPage = () => {
 
             <p>
               If a community member engages in harassing behavior, the organizers
-              of <strong>NodeSchool Vancouver</strong> may take any action they deem
+              of <strong>{data.site.siteMetadata.title}</strong> may take any action they deem
               appropriate, including warning the offender or expulsion from the
               community. If you are being harassed, notice that someone else is
               being harassed, or have any concerns, please contact an organizer
@@ -178,26 +192,26 @@ const IndexPage = () => {
               <h2 id="credit">Credits</h2>
 
               <p className="credit">
-                The NodeSchool Vancouver Hex Logo was kindly designed by
+                The {data.site.siteMetadata.title} Hex Logo was kindly designed by
                 <a href="http://willduart.com/">Will Du</a>.
               </p>
 
               <p className="links">
                 <a
                   href="https://ti.to/nodeschool-vancouver"
-                  title="NodeSchool Vancouver Event"
+                  title="{data.site.siteMetadata.title} Event"
                   >Events</a
                 >
                 <span className="divider">|</span>
                 <a
                   href="https://twitter.com/NodeSchoolTO"
-                  title="NodeSchool Vancouver Twitter"
+                  title="{data.site.siteMetadata.title} Twitter"
                   >Twitter</a
                 >
                 <span className="divider">|</span>
                 <a
                   href="https://github.com/nodeschool/vancouver"
-                  title="NodeSchool Vancouver GitHub"
+                  title="{data.site.siteMetadata.title} GitHub"
                   >GitHub</a
                 >
                 <span className="divider">|</span>
@@ -215,11 +229,11 @@ const IndexPage = () => {
               {/* nodeschool.io info */}
 
               <a className="logo" href="http://nodeschool.io">
-                <img src="i/schoolhouse-beige.svg" alt="NodeSchool Logo" />
+                <img src={data.schoolhouseImage.publicURL} alt={data.site.siteMetadata.title} />
                 <p className="about">
                   <strong>NodeSchool</strong> is a selection of open source
                   workshops that teach web software skills. You can do them on
-                  your own or at one of the monthly <strong>NodeSchool Vancouver</strong> events.
+                  your own or at one of the monthly <strong>{data.site.siteMetadata.title}</strong> events.
                 </p>
               </a>
 
