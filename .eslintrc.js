@@ -8,7 +8,7 @@ module.exports = {
     `plugin:jsx-a11y/recommended`,
     `plugin:import/errors`,
     `plugin:import/warnings`,
-    `plugin:jest/recommended`
+    `plugin:jest/recommended`,
   ],
   "plugins": [
     `babel`,
@@ -16,21 +16,22 @@ module.exports = {
     `jest`,
     `jsx-a11y`,
     `promise`,
-    `react`
+    `react`,
   ],
   "settings": {
     "react": { "version": `detect` },
     "import/extensions": [`.js`, `.jsx`],
     "import/resolver": {
       "node": {
-        "extensions": [`.js`,`.jsx`]
-      }
+        "extensions": [`.js`,`.jsx`],
+      },
     },
     "linkComponents": [
-      {"name": `Link`, "linkAttribute": `to`}
-    ]
+      {"name": `Link`, "linkAttribute": `to`},
+    ],
   },
   "rules": {
+    "comma-dangle": [`error`, `always-multiline`],
     "quotes":[`error`, `backtick`],
     "semi": [2, `always`],
     "react/jsx-no-undef": [`error`],
@@ -53,17 +54,17 @@ module.exports = {
     "react/prefer-stateless-function": `off`,
     "react/no-children-prop": `error`,
     "react/prop-types": `off`,
-    "react/no-danger": `off`
+    "react/no-danger": `off`,
   },
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
   },
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
     },
     "ecmaVersion": 2018,
-    "sourceType": `module`
-  }
+    "sourceType": `module`,
+  },
 };
