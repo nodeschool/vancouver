@@ -4,6 +4,7 @@ module.exports = {
   description: `Website for NodeSchool Vancouver.`,
   author: `@nodeschoolyvr`,
   twitter: `NodeSchoolYVR`,
+  github: `nodeschool/vancouver`,
   slack: ``,
   meetupGroup: `nodeschool-vancouver`,
   email: `organizers@nodeschoolyvr.com`

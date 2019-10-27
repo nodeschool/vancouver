@@ -26,11 +26,12 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `mentors`,
-        path: `${__dirname}/data/mentors`,
+        path: `${__dirname}/data`,
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-yaml`,
+    `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
