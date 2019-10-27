@@ -1,5 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import PeopleHexagons from '../components/people-hexagons';
 import styled from "@emotion/styled";
 import Hexagon from 'react-hexagon';
 
@@ -58,6 +59,7 @@ export const Mentors = () => {
     <>
       <h2 id="mentors">Mentors</h2>
       {/* mentors */}
+    <PeopleHexagons people={data.allPeopleYaml.edges.map(edge => edge.node)} />
       <MentorContainer>
         {data.allMentorsYaml.edges.map(edge => (
           <Hexagon
