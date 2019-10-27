@@ -9,7 +9,7 @@ const NodeSchoolChapterLogo = () => {
           title
         }
       }
-      placeholderImage: file(relativePath: { eq: "nodeschool-vancouver-logo.svg" }) {
+      placeholderImage: file(relativePath: { eq: "nodeschool-chapter-logo.svg" }) {
         extension
         publicURL
       }
