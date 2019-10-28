@@ -80,5 +80,8 @@ This will deploy your site to your gh-pages branch of the current repository
 ## Todo
 
 [ ] Remove scss and replace it with in component emotion (Easier to track down styles)
-[ ] Photos (Maybe just order by filename)
+[X] Photos (Maybe just order by filename)
+  * Maybe an upgrade, date-name.md which has images: [./date-name.jpg] as frontmatter so we can do a lightbox with details/scroll through
+  * https://github.com/gatsbyjs/gatsby/issues/7007
 [ ] Switch from using float to css grid
+[ ] Show more future and past events
