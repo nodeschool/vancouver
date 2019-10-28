@@ -1,38 +1,77 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Hexagon from 'react-hexagon';
+import styled from "@emotion/styled";
+
+const Container = styled.div`
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 0.25fr));
+
+  width: 100%;
+  z-index: 900;
+  transform: translate3d(-5%, 0, 0);
+  position: relative;
+
+  &:hover {
+    svg {
+      transition: opacity 0.3s, transform 0.2s;
+      opacity: 0.25;
+      &:hover {
+        opacity: 1 !important;
+        transform: scale(1.5);
+        z-index: 9999;
+      }
+    }
+  }
+  svg {
+    padding: 0;
+    margin: 0;
+    polygon {
+      stroke: transparent !important;
+      stroke-width: 0 !important;
+    }
+  }
+`;
 
 export const Photos = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allFile(filter: {relativeDirectory: {eq: "photos"}, relativePath: {ne: "photos/.keep"}}, sort: {fields: relativePath, order: DESC}) {
+        edges {
+          node {
+            childImageSharp {
+              fixed(width: 500, height: 500) {
+                src
+              }
+              original {
+                src
+              }
+            }
+            id
+            relativeDirectory
+            relativePath
+          }
+        }
+      }
+    }
+  `);
   return (
     <>
       <h2 id="photos">Photos</h2>
-      {/* 
-
-          <div className="list-photos cf">
-            {% for i in (1..30) %} {% cycle '
-            <div className="row">
-              ', '', '', '', '' %}
-              <a
-                href="i/photos/{{ i }}.jpg"
-                target="_blank"
-                className="image-wrapper"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 250 300"
-                  version="1.1"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <polygon
-                    className="hex"
-                    points="250,75 250,225 125,300 0,225 0,75 125,0"
-                    fill="url('#photo-{{ i }}')"
-                  ></polygon>
-                </svg>
-              </a>
-              {% cycle '', '', '', '', '
-            </div>
-            ' %} {% endfor %}
-          </div>
-      */}
+    <Container>
+      {data.allFile.edges.map(edge => {
+        return (
+          <Hexagon
+            key={edge.node.id}
+            href={edge.node.childImageSharp.original.src}
+            backgroundImage={edge.node.childImageSharp.fixed.src}
+            rel="noopener noreferrer"
+            target="_blank"
+          />
+        );
+      })}
+      </Container>
     </>
   );
 };
