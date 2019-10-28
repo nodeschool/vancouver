@@ -7,7 +7,7 @@ import Events from "../components/events";
 import FollowTwitter from "../components/follow-twitter";
 import Community from "../components/community";
 import Sponsors from "../components/sponsors";
-import Attendies from "../components/attendies";
+import Attendees from "../components/attendees";
 import Mentors from "../components/mentors";
 import Photos from "../components/photos";
 import NodeSchoolChapterLogo from "../components/NodeSchoolChapterLogo";
@@ -254,7 +254,7 @@ $ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 
 
               <Mentors />
-              <Attendies />
+              <Attendees />
               <Sponsors />
             </div>
 

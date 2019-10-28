@@ -2,9 +2,9 @@
 
 This is our static site generator, powered by [gatsby](https://www.gatsbyjs.org)
 
-## Attendies
+## Attendees
 
-Want a simple pull request? Add yourself to the data/attendies/ directory. Create a new yaml file with your name, with the following content:
+Want a simple pull request? Add yourself to the data/attendees/ directory. Create a new yaml file with your name, with the following content:
 
 ```
 ---
@@ -53,14 +53,14 @@ Everything for your nodeschool event should be managed in the data/ directory
 
     data
     ├── mentors
-    ├── attendies
+    ├── attendees
     ├── photos
     ├── config.js
     ├── path-prefix.js
 
 1.  **`/data/mentors`**: This contains a list of your mentors. One yaml file per mentor. Icons are taken from github
 
-2.  **`/data/attendies`**: This contains a list of any attendies that want to show themselves as part of the community.
+2.  **`/data/attendees`**: This contains a list of any attendees that want to show themselves as part of the community.
 
 3.  **`/data/photos`**: Your events photos. **Not yet implemented**
 

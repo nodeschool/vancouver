@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Attendies = () => {
+export const Attendees = () => {
   return (
     <>
-      {/* attendies */}
+      {/* attendees */}
       {/*
             <h2 id="attendees">Attendees</h2>
 
@@ -37,5 +37,5 @@ export const Attendies = () => {
     </>
   );
 };
-export default Attendies;
+export default Attendees;
 
