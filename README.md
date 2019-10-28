@@ -85,3 +85,4 @@ This will deploy your site to your gh-pages branch of the current repository
   * https://github.com/gatsbyjs/gatsby/issues/7007
 [ ] Switch from using float to css grid
 [ ] Show more future and past events
+[ ] Support gravatar for images instead of just github?
