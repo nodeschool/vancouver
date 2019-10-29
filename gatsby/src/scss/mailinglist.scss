@@ -1,0 +1,73 @@
+// --------------------------------
+// Event Badge
+// --------------------------------
+
+.mailinglist {
+  @extend .cf;
+
+  margin: 40px 0 0 -40px;
+  padding: 40px;
+  width: calc(100% + 80px);
+  background: lighten($secondary, 10%);
+  color: $tertiary;
+  font-size: 16px;
+  position: relative;
+
+  h3 {
+    margin-top: 0;
+
+    &:before {
+      content: "";
+      font-family: "icon";
+      font-size: 16px;
+      display: inline-block;
+      margin: 0 10px 0 0;
+    }
+  }
+
+  label {
+    display: block;
+    margin: 0 0 10px;
+
+    span, input {
+      display: block;
+      border: none;
+      width: 100%;
+    }
+
+    span {
+      margin: 0 0 10px;
+    }
+
+    input {
+      padding: 15px 10px;
+      font-size: 18px;
+    }
+  }
+
+  input[type=submit] {
+    border: none;
+    background: $accent;
+    display: block;
+    margin: 20px auto 0;
+    color: lighten($secondary, 10%);
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  .firstname, .lastname {
+    width: calc(50% - 10px);
+    float: left;
+  }
+
+  .lastname {
+    float: right;
+  }
+
+  .email {
+    clear: both;
+  }
+}
