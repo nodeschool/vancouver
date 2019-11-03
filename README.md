@@ -30,7 +30,7 @@ We usually like mentors to have come to a session before, and read up on the htt
 
 # Template
 
-This is heavily based off the nodeschool toronto template. It used jekyll which when I tried it wouldn't compile properly, and as a node group, figured all node was better.
+This is heavily based off the NodeSchool Toronto template. It used Jekyll which when I tried it wouldn't compile properly, and as a Node.js group, figured all Node.js was better.
 
 ## Install all depenendancies
 
