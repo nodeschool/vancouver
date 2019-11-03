@@ -1,0 +1,115 @@
+// --------------------------------
+// Navigation
+// --------------------------------
+
+.nav {
+  height: 100%;
+  position: fixed;
+  background: $accent;
+  z-index: 9999;
+  width: 80px;
+  transition: width 0.2s;
+  overflow: hidden;
+
+  &:hover {
+    width: 280px;
+
+    & + main {
+      transform: translate3d(200px, 0, 0);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      width: 280px;
+      height: 80px;
+      display: block;
+      position: relative;
+      transition: background ease-in-out 0.2s;
+      border-bottom: 1px solid rgba($highlight, 0.15);
+
+      &:hover {
+        background: $highlight;
+
+        &:before, &:after {
+          color: $accent;
+        }
+      }
+
+      &:before {
+        content: "";
+        font-family: "icon";
+        font-size: 20px;
+        padding: 28px 0 0 0;
+        line-height: 100%;
+        text-align: center;
+        left: 0;
+        top: 0;
+        position: absolute;
+        display: block;
+        height: 80px;
+        width: 80px;
+        color: $highlight;
+        transition: color ease-in-out 0.2s;
+      }
+
+      &.home:before {
+        content: "";
+      }
+
+      &.community:before {
+        content: "";
+      }
+
+      &.events:before {
+        content: "";
+      }
+
+      &.faq:before {
+        content: "";
+      }
+
+      &.mentors:before {
+        content: "";
+      }
+
+      &.attendees:before {
+        content: "";
+      }
+
+      &.photos:before {
+        content: "";
+      }
+
+      &.code:before {
+        content: "";
+      }
+
+      &:after {
+        content: attr(data-text);
+        color: $highlight;
+        position: absolute;
+        top: 0;
+        left: 80px;
+        padding: 38px 0 0;
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        white-space: nowrap;
+        transition: color ease-in-out 0.2s;
+      }
+    }
+  }
+}
