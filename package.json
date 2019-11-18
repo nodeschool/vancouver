@@ -8,7 +8,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.22",
-    "gatsby": "^2.17.4",
+    "gatsby": "^2.17.10",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-catch-links": "^2.1.15",
     "gatsby-plugin-emotion": "^4.1.12",
@@ -30,6 +30,7 @@
     "gatsby-remark-source-name": "^1.0.0",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-source-meetup": "^1.0.0",
+    "gatsby-theme-nodeschool": "^0.1.2",
     "gatsby-transformer-json": "^2.2.15",
     "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "^2.3.0",
