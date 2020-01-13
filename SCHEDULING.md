@@ -6,17 +6,17 @@ Take a look at [HOSTING](https://nodeschool.io/vancouver/HOSTING) if you are int
 
 Year | Month | Date | Venue* | Event type
 ---- | ----- | ---- | ----- | ----------
-2020 | January | [11th](https://www.meetup.com/nodeschool-vancouver/events/256561672/) | Zaber Technologies Inc |
-2020 | February | [8th](https://www.meetup.com/nodeschool-vancouver/events/256561686/) | LoginRadius Inc |
-2020 | March | [14th](https://www.meetup.com/nodeschool-vancouver/events/257977976) | Sauce Labs |
-2020 | April | [11th](https://www.meetup.com/nodeschool-vancouver/events/258713785/) | - |
-2020 | May | [9th](https://www.meetup.com/nodeschool-vancouver/events/260332010/) | - |
-2020 | June | [13th](https://www.meetup.com/nodeschool-vancouver/events/260107490/) | Sauce Labs |
-2020 | July | [11th](https://www.meetup.com/nodeschool-vancouver/events/260825524) | - |
-2020 | August | [8th](https://www.meetup.com/nodeschool-vancouver/events/262570784/) | - |
-2020 | September | [12th](https://www.meetup.com/nodeschool-vancouver/events/263961682/) | Sauce Labs |
-2020 | October | [10th](https://www.meetup.com/nodeschool-vancouver/events/264018794/) | - |
-2020 | November | [14th](https://www.meetup.com/nodeschool-vancouver/events/264018813) | - |
+2020 | January | [11th](https://www.meetup.com/nodeschool-vancouver/events/264413496/) | Zaber Technologies Inc |
+2020 | February | [8th](https://www.meetup.com/nodeschool-vancouver/events/265324737/) | LoginRadius Inc |
+2020 | March | [14th](https://www.meetup.com/nodeschool-vancouver/events/266012076/) | Sauce Labs |
+2020 | April | 11th | - |
+2020 | May | 9th | - |
+2020 | June | 13th | Sauce Labs |
+2020 | July | 11th | - |
+2020 | August | 8th | - |
+2020 | September | 12th | Sauce Labs |
+2020 | October | 10th | - |
+2020 | November | 14th | - |
 
 ## 2019
 
