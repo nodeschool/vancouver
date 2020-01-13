@@ -7,7 +7,7 @@ Take a look at [HOSTING](https://nodeschool.io/vancouver/HOSTING) if you are int
 Year | Month | Date | Venue* | Event type
 ---- | ----- | ---- | ----- | ----------
 2020 | January | [11th](https://www.meetup.com/nodeschool-vancouver/events/256561672/) | Zaber Technologies Inc |
-2020 | February | [8th](https://www.meetup.com/nodeschool-vancouver/events/256561686/) | airG |
+2020 | February | [8th](https://www.meetup.com/nodeschool-vancouver/events/256561686/) | LoginRadius Inc |
 2020 | March | [14th](https://www.meetup.com/nodeschool-vancouver/events/257977976) | Sauce Labs |
 2020 | April | [11th](https://www.meetup.com/nodeschool-vancouver/events/258713785/) | - |
 2020 | May | [9th](https://www.meetup.com/nodeschool-vancouver/events/260332010/) | - |
