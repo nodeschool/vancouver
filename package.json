@@ -35,7 +35,7 @@
     "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-sharp": "^2.3.12",
     "gatsby-transformer-yaml": "^2.2.23",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "prismjs": "^1.19.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
