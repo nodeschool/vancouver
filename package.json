@@ -18,7 +18,7 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
     "gatsby-plugin-sentry": "^1.0.1",
-    "gatsby-plugin-sharp": "^2.3.13",
+    "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-remark-autolink-headers": "^2.1.23",
     "gatsby-remark-copy-linked-files": "^2.1.36",
     "gatsby-remark-embed-youtube": "0.0.7",
