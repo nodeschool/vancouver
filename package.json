@@ -32,7 +32,7 @@
     "gatsby-source-meetup": "^1.1.0",
     "gatsby-theme-nodeschool": "^0.2.0",
     "gatsby-transformer-json": "^2.2.25",
-    "gatsby-transformer-remark": "^2.6.48",
+    "gatsby-transformer-remark": "^2.6.49",
     "gatsby-transformer-sharp": "^2.3.13",
     "gatsby-transformer-yaml": "^2.2.23",
     "node-sass": "^4.13.1",
