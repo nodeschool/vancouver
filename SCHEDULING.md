@@ -10,12 +10,12 @@ Year | Month | Date | Venue* | Event type
 2020 | February | [8th](https://www.meetup.com/nodeschool-vancouver/events/265324737/) | LoginRadius Inc |
 2020 | March | [14th](https://www.meetup.com/nodeschool-vancouver/events/266012076/) | Sauce Labs |
 2020 | April | 11th | - |
-2020 | May | 9th | - |
+2020 | May | 9th | Clio |
 2020 | June | 13th | Sauce Labs |
 2020 | July | 11th | - |
 2020 | August | 8th | - |
 2020 | September | 12th | Sauce Labs |
-2020 | October | 10th | - |
+2020 | October | 10th | Clio |
 2020 | November | 14th | - |
 
 ## 2019
