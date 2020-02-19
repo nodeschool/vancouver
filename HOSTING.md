@@ -8,6 +8,10 @@ Are you interested in hosting NodeSchool Vancouver? We have a minimum set of req
   * Can be split into a couple rooms because we tend to split into smaller groups
 * Wifi for 20+ people
 * Power
+* A plan for letting people into space. Most commercial offices have restricted access on weekends. This plan should include:
+
+  * A sign: getting from the main entrance of a building to a space is more difficult to people who have not been there before. This applies to most attendees. Unless the path from main entrance to the space has no possible diversions, you need signs.
+  * Elevator pass if needed.
 
 ## Nice to have
 
