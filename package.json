@@ -6,7 +6,7 @@
   "author": "Nodeschool YVR <organizers@nodeschoolyvr.com>",
   "homepage": "https://nodeschool.io/vancouver/",
   "dependencies": {
-    "@emotion/core": "^10.0.27",
+    "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "gatsby": "^2.19.22",
     "gatsby-image": "^2.2.41",
