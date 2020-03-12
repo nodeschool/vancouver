@@ -28,7 +28,7 @@
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-remark-responsive-iframe": "^2.2.33",
     "gatsby-remark-source-name": "^1.0.0",
-    "gatsby-source-filesystem": "^2.1.52",
+    "gatsby-source-filesystem": "^2.1.53",
     "gatsby-source-meetup": "^1.1.0",
     "gatsby-theme-nodeschool": "^0.2.0",
     "gatsby-transformer-json": "^2.2.27",
