@@ -20,7 +20,7 @@
     "gatsby-plugin-sentry": "^1.0.1",
     "gatsby-plugin-sharp": "^2.5.4",
     "gatsby-remark-autolink-headers": "^2.1.26",
-    "gatsby-remark-copy-linked-files": "^2.1.40",
+    "gatsby-remark-copy-linked-files": "^2.2.1",
     "gatsby-remark-embed-youtube": "0.0.7",
     "gatsby-remark-emoji": "0.0.3",
     "gatsby-remark-images": "^3.1.50",
