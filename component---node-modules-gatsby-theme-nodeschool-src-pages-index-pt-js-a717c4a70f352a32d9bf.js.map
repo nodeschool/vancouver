@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./node_modules/gatsby-theme-nodeschool/src/pages/index.pt.js"],"names":["IndexPage"],"mappings":"4FAAA,uBAEeA,YAAf","file":"component---node-modules-gatsby-theme-nodeschool-src-pages-index-pt-js-a717c4a70f352a32d9bf.js","sourcesContent":["import IndexPage from './index';\n\nexport default IndexPage;"],"sourceRoot":""}
