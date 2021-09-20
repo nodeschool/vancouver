@@ -1,1 +1,5 @@
-{"componentChunkName":"component---node-modules-gatsby-theme-nodeschool-src-pages-404-js","path":"/404.html","result":{"pageContext":{"slug":"/404/","langKey":"en"}},"staticQueryHashes":["735375095"]}
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-nodeschool-src-pages-404-js",
+    "path": "/404.html",
+    "result": {"pageContext":{"language":"en","i18n":{"language":"en","languages":["en"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":false,"originalPath":"/404/","path":"/404/"}}},
+    "staticQueryHashes": ["735375095"]}
