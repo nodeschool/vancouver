@@ -6,18 +6,17 @@
   "author": "Nodeschool YVR <organizers@nodeschoolyvr.com>",
   "homepage": "https://nodeschool.io/vancouver/",
   "dependencies": {
-    "gatsby": "^3.14.0",
-    "gatsby-plugin-manifest": "^3.14.0",
+    "gatsby": "^5.8.1",
+    "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-sentry": "^1.0.1",
-    "gatsby-source-filesystem": "^3.14.0",
-    "gatsby-theme-nodeschool": "^1.0.1",
-    "react": "^17.0.2"
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-theme-nodeschool": "^2.0.0",
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-jest": "^24.4.2",
-    "eslint-plugin-promise": "^5.1.0",
-    "gh-pages": "^3.2.3"
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-promise": "^6.1.1"
   },
   "keywords": [
     "gatsby"
@@ -26,10 +25,8 @@
   "scripts": {
     "build": "TZ=UTC gatsby build",
     "build:pp": "TZ=UTC gatsby build --prefix-paths",
-    "build:gh": "run-s clean build:pp deploy",
     "clean": "rm -rf public",
     "develop": "gatsby develop -p 3000 -H 0.0.0.0",
-    "deploy:github": "gh-pages -d public",
     "dev": "npm run develop",
     "start": "npm run develop",
     "serve": "gatsby serve",

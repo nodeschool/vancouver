@@ -1,15 +1,45 @@
-name: Build
-on: push
+name: Build and deploy
+on:
+  schedule:
+    - cron: '1 1 */10 * *'
+
+  push:
+    branches:
+      - master
+
+  pull_request:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
+          node-version: '18.x'
 
-      - run: yarn install
+      - name: Gatsby Cache Folder
+        uses: actions/cache@v2
+        id: gatsby-cache-folder
+        with:
+          path: .cache
+          key: ${{ runner.os }}-cache-gatsby
+          restore-keys: |
+            ${{ runner.os }}-cache-gatsby
 
-      - run: yarn build:pp
+      - name: Gatsby Public Folder
+        uses: actions/cache@v2
+        id: gatsby-public-folder
+        with:
+          path: public/
+          key: ${{ runner.os }}-public-gatsby
+          restore-keys: |
+            ${{ runner.os }}-public-gatsby
+
+      - run: npm install
+
+      - run: npm run build -- --log-pages
+        env:
+          PREFIX_PATHS: 'true'
+          PATH_PREFIX: '/vancouver'
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: 'true'

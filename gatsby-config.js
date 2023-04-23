@@ -1,6 +1,8 @@
 /* eslint-env node */
 const path = require(`path`);
 module.exports = {
+  pathPrefix: process.env.PATH_PREFIX,
+  /*
   siteMetadata: {
     title: `NodeSchool Vancouver`,
     description: `Website for NodeSchool Vancouver.`,
@@ -19,6 +21,7 @@ module.exports = {
       },
     },
   },
+  */
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
@@ -36,12 +39,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/data`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-sentry`,
       options: {
         dsn: process.env.SENTRY_DSN,
@@ -52,7 +49,7 @@ module.exports = {
       options: {
         title: `NodeSchool Vancouver`,
         description: `Website for NodeSchool Vancouver.`,
-        twitter: `@NodeSchoolYVR`,
+        twitter: `NodeSchoolYVR`,
         github: `nodeschool/vancouver`,
         url: `https://nodeschool.io/vancouver/`,
         slack: ``,
