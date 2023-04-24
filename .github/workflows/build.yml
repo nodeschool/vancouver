@@ -10,6 +10,10 @@ on:
   pull_request:
 jobs:
   build:
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -43,27 +47,10 @@ jobs:
           PREFIX_PATHS: 'true'
           PATH_PREFIX: '/vancouver'
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: 'true'
-  deploy:
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    needs:
-      - build
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-    steps:
-      - name: Gatsby Public Folder
-        uses: actions/cache@v2
-        id: gatsby-public-folder
-        with:
-          path: public/
-          key: ${{ runner.os }}-public-gatsby
-          restore-keys: |
-            ${{ runner.os }}-public-gatsby
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.event_name != 'pull_request'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
