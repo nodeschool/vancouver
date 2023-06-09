@@ -6,7 +6,7 @@
   "author": "Nodeschool YVR <organizers@nodeschoolyvr.com>",
   "homepage": "https://nodeschool.io/vancouver/",
   "dependencies": {
-    "gatsby": "^5.8.1",
+    "gatsby": "^5.9.1",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-sentry": "^1.0.1",
     "gatsby-source-filesystem": "^5.8.0",
